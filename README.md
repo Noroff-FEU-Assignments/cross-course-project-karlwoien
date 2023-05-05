@@ -6,4 +6,4 @@ cross-course-project-karlwoien created by GitHub Classroom
 
 Task: Organising files and folders in order to start developing the website designed in the course Design 1
 
-Link to deployed site on Netlify:
+Link to deployed site on Netlify: https://wct-ca-kew.netlify.app/
