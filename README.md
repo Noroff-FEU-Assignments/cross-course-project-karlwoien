@@ -2,7 +2,8 @@
 
 cross-course-project-karlwoien created by GitHub Classroom
 
-# Course assignment WCT
+# CA - Web and Communications Technology
 
-Task: Organising files and folders in order to start developing the website that I chose in the course Design 1
+Task: Organising files and folders in order to start developing the website designed in the course Design 1
+
 Link to deployed site on Netlify:
