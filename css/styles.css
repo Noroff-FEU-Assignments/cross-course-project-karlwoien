@@ -1,12 +1,118 @@
+header {
+    display: grid;
+    grid-gap: 1em;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    text-transform: uppercase;
+    height: 0px;
+}
+
 header,
 footer {
     background-color: #fff;
     color: black;
     font-family: 'Questrial', sans-serif;
+    display: flex;
 }
-h1 {
+
+footer {
+    display: flex;
+}
+
+h1,
+h2 {
     font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
 }
+
+h3 {
+    font-family: 'Questrial', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
 p {
     font-family: 'Hind Siliguri', sans-serif;
+}
+
+/**********
+styling homepage
+***********/
+
+.hero {
+    background-image: url("../images/home/hero-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    font-size: 65px;
+    color: #fff;
+}
+
+.discover {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.newsletter {
+    background-image: url(../images/home/newsletter-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #fff;
+}
+
+/**********
+styling av hamburgermeny under
+***********/
+
+nav,
+#menu-checkbox {
+    display: none;
+}
+
+#menu-checkbox:checked ~ nav {
+  display: block;
+}
+
+nav {
+    background-color: #fff;
+    color: black;
+}
+
+nav a {
+    display: block;
+    color: black;
+    padding: 10px;
+    font-size: 22px;
+}
+
+@media (min-width: 700px) {
+    nav {
+        display: block;
+        position: static;
+    }
+
+    .hamburger-icon {
+        display: none;
+    }
+    
+    nav a {
+        display: inline-block;
+    }
+}
+ 
+/**********
+styling footer
+***********/
+
+.footer-nav {
+    background-color: violet;
+    color: black;
 }
