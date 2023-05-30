@@ -13,39 +13,55 @@
 </head>
 <body>
   <header>
-    <a href="index.html">Rainy Days</a>
-    <!--logo in-->
-    <ul>
-      <a href="index.html">Home</a>
-      <a href="shop.html">Shop</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </ul>
-    <!--shopping cart in here-->
+    <div id="logo-header" class="logo-header">
+      <a href="index.html"> <img src="images/logo-header.png" alt="Rainy Days Logo"></a>
+    </div>
+      <input type="checkbox" id="menu-checkbox">
+      <label for="menu-checkbox" class="hamburger-icon"><img src="images/icons/hamburger-menu-icon.png"></i></label>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="shop.html">Shop</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+    <div id="shoppingbag" class="shoppingbag">
+      <a href="checkout.html"><img src="images/icons/shoppingbag-icon.png" alt="shoppingbag"></a>
+    </div>
+    </div>
   </header>
   <main>
-    <section>
+    <section id="hero" class="hero">
       <h1>Jackets for outdoor adventures</h1>
     </section>
+    <section id="discover" class="discover">
+      <h2>Discover our new arrivals</h2>
+    </section>
+    <section id="newsletter" class="newsletter">
+      <h2>Join our newsletter: get 15% off + access to presales</h2>
     </section>
   </main>
   <footer>
-    <section>
+    <div id="customer-care" class="customer-care"
       <h3>Customer care</h3>
-        <ul>
-          <li> <a href=contact.html>Contact</a></li>
-          <li> <a href="#">Delivery</a></li>
-          <li> <a href="#">Returns</a></li>
-          <li> <a href="#">FAQ</a></li>
-        </ul> 
-    </section>
-    <section>
-        <!--logo with quote in-->
-    </section>
-    <section>
+    
+        <nav id="footer-nav"> 
+          <ul>
+            <a href=contact.html>Contact</a>
+            <a href="#">Delivery</a>
+            <a href="#">Returns</a>
+            <a href="#">FAQ</a>
+          </ul>
+        </nav> 
+    </div>
+    <div id="logo-footer" class="logo-footer">
+        <a href="index.html"><img src="images/logo-footer.png" alt="logo-footer"></a>
+    </div>
+    <div id="SoMe" class="soMe"
         <h3>Get social with us</h3>
-        <!--SoMe icons in-->
-    </section>
+        <ul></ul>
+          <a href="#"><img src="images/icons/fb-icon-some.png" alt="fc-icon"></a>
+        </ul>
+  </div>
   </footer>
 </body>
 </html>
