@@ -30,18 +30,17 @@ p {
 ----------------------------------------*/
 
 header {
-    display: grid;
-    grid-gap: 20px;
-    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
     margin: 0, auto;
-    padding: 20px;
+    padding: 30px;
     text-transform: uppercase;
     height: 0px;
 }
 
 .logo-header {
-    grid-column: 1/3;
-    align-content:right;
+    padding: 0px 0px;
 }
 
 nav,
@@ -56,7 +55,7 @@ nav,
 nav {
     background-color: #fff;
     color: black;
-    align-self: center;
+
 }
 
 nav a {
@@ -64,41 +63,38 @@ nav a {
     color: black;
     padding: 20px;
     font-size: 22px;
-    grid-column: 2/3;
+
 }
 
 .shoppingbag {
-    grid-column: 3/3;
+    padding: 14px 50px;
 }
 
 /* Styling footer
 ----------------------------------------*/
 footer {
     display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0, auto;
+    padding: 50px;
+    height: 0px;
 }
 
 .footer-nav {
-    display: flex;
-    flex-direction: row;
     align-self: flex-start;
     align-items: baseline;
     align-content: flex-start;
-}
-
+} 
+   
 .logo-footer {
-    display: flex;
-    flex-direction: row;
     align-self: center;
     align-items: baseline;
     align-content: center;
 }
 
-.footer-nav-some .logo-footer {
-    display: flex;
-    flex-direction: row;
-    align-self: flex-end;
-    align-items: baseline;
-    align-content: end;
+.footer-nav-some {
+    text-align: end;
 }
 
 /* Styling homepage
@@ -112,6 +108,7 @@ footer {
     min-height: 100vh;
     font-size: 65px;
     color: #fff;
+    text-align:end;
 }
 
 .discover {
