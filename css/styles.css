@@ -9,6 +9,10 @@ footer {
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+  }
+
 h1,
 h2,
 h3 {
@@ -33,7 +37,6 @@ header {
     display: flex;
     justify-content: space-between;
     max-width: 1440px;
-    margin: 0, auto;
     padding: 30px;
     text-transform: uppercase;
     height: 0px;
@@ -62,8 +65,11 @@ nav a {
     display: block;
     color: black;
     padding: 20px;
-    font-size: 22px;
+    font-size: 24px;
 
+}
+nav a:hover{
+    color: #C22525;
 }
 
 .shoppingbag {
@@ -77,8 +83,9 @@ footer {
     justify-content: space-between;
     max-width: 1440px;
     margin: 0, auto;
-    padding: 50px;
+    
     height: 0px;
+    padding-top: 100px;
 }
 
 .footer-nav {
@@ -100,7 +107,7 @@ footer {
 /* Styling homepage
 ----------------------------------------*/
 
-.hero {
+.hero-home {
     background-image: url("../images/home/hero-image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -129,6 +136,18 @@ footer {
     font-size: 40px;
     color: #fff;
 }
+
+
+/* Styling about
+----------------------------------------*/
+
+.hero-about {
+    background-image: url(../images/about/hero-about.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
 
 /* Media query
 -------------------------------*/
