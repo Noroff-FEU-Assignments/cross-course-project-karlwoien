@@ -1,23 +1,12 @@
-header {
-    display: grid;
-    grid-gap: 1em;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 20px;
-    text-transform: uppercase;
-    height: 0px;
-}
+/* Styling global/general
+----------------------------------------*/
 
 header,
 footer {
     background-color: #fff;
     color: black;
     font-family: 'Questrial', sans-serif;
-    display: flex;
-}
-
-footer {
-    display: flex;
+    width: 100%;
 }
 
 h1,
@@ -37,9 +26,83 @@ p {
     font-family: 'Hind Siliguri', sans-serif;
 }
 
-/**********
-styling homepage
-***********/
+/* Styling header
+----------------------------------------*/
+
+header {
+    display: grid;
+    grid-gap: 20px;
+    max-width: 100%;
+    margin: 0, auto;
+    padding: 20px;
+    text-transform: uppercase;
+    height: 0px;
+}
+
+.logo-header {
+    grid-column: 1/3;
+    align-content:right;
+}
+
+nav,
+#menu-checkbox {
+    display: none;
+}
+
+#menu-checkbox:checked ~ nav {
+  display: block;
+}
+
+nav {
+    background-color: #fff;
+    color: black;
+    align-self: center;
+}
+
+nav a {
+    display: block;
+    color: black;
+    padding: 20px;
+    font-size: 22px;
+    grid-column: 2/3;
+}
+
+.shoppingbag {
+    grid-column: 3/3;
+}
+
+/* Styling footer
+----------------------------------------*/
+footer {
+    display: flex;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    align-items: baseline;
+    align-content: flex-start;
+}
+
+.logo-footer {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: baseline;
+    align-content: center;
+}
+
+.footer-nav-some .logo-footer {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    align-items: baseline;
+    align-content: end;
+}
+
+/* Styling homepage
+----------------------------------------*/
 
 .hero {
     background-image: url("../images/home/hero-image.jpg");
@@ -52,6 +115,7 @@ styling homepage
 }
 
 .discover {
+    display: grid;
     text-align: center;
     text-transform: uppercase;
     font-size: 40px;
@@ -69,30 +133,8 @@ styling homepage
     color: #fff;
 }
 
-/**********
-styling av hamburgermeny under
-***********/
-
-nav,
-#menu-checkbox {
-    display: none;
-}
-
-#menu-checkbox:checked ~ nav {
-  display: block;
-}
-
-nav {
-    background-color: #fff;
-    color: black;
-}
-
-nav a {
-    display: block;
-    color: black;
-    padding: 10px;
-    font-size: 22px;
-}
+/* Media query
+-------------------------------*/
 
 @media (min-width: 700px) {
     nav {
@@ -109,18 +151,8 @@ nav a {
     }
 }
  
-/**********
-styling footer
-***********/
-
-.footer-nav {
-    background-color: violet;
-    color: black;
-}
-
-/**********
-styling button
-***********/
+/* Styling button
+--------------------------------*/
 .shop-now {
     border: 0;
     line-height: 2.5;
