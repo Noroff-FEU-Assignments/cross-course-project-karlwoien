@@ -27,9 +27,44 @@
     </header>
    <!--Start of main-->
     <main>
-    <section>
-
-    </section>
+      <section id="checkout-summary" class="checkout-summary">
+        <h1>Checkout summary</h1>
+        <!-- use grid?-->
+        <div>
+          <p>product</p>
+          <p>size</p>
+          <p>items</p>
+          <p>price</p>
+          <!-- <hr> tag -->
+        </div>
+        <div>
+          <img src="images/products/boat-jacket.png" alt="boat jacket">
+          <img src="images/products/running-jacket.png" alt="running jacket">
+        </div>
+      </section>
+      <section id="shipping" class="shipping">
+        <h1>shipping info</h1>
+        <form>
+          <input type="firstname" placeholder="First name">
+          <input type="lastname" placeholder="Last name">
+          <input type="streetname" placeholder="Street name">
+          <input type="postalcode" placeholder="Postal code">
+          <input type="city" placeholder="City">
+          <input type="email" placeholder="E-mail">
+          <input type="mobile" placeholder="Mobile number">
+        </form>
+      </section>
+      <section id="payment" class="payment">
+        <h1>payment info</h1>
+        <img src="images/icons/klarna-logo.png" alt="Klarna logo">
+        <img src="images/icons/vipps-logo.png" alt="Vipps logo">
+        <img src="images/icons/visa-logo.png" alt="Visa logo">
+        <a href="checkout-success.html" class="cta-button-red">checkout</a>
+        <button href="checkout-success.html" class="cta-button-red">checkout</button>
+        <!--button må gjøres om til <a>, husk css-->
+        <button class="cta-button-white">continue shopping</button>
+        <a href="shop.html" class="cta-button-white">continue shopping</a>
+      </section>
   </main>
   <!--Start of footer-->
   <footer>
