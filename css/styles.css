@@ -57,13 +57,13 @@ nav,
 
 nav {
     background-color: #fff;
-    color: black;
+    color: #000;
 
 }
 
 nav a {
     display: block;
-    color: black;
+    color: #000;
     padding: 20px;
     font-size: 24px;
 
@@ -83,10 +83,11 @@ footer {
     justify-content: space-between;
     max-width: 1440px;
     margin: 0, auto;
-    
+
     height: 0px;
     padding-top: 100px;
 }
+
 
 .footer-nav {
     align-self: flex-start;
@@ -103,6 +104,7 @@ footer {
 .footer-nav-some {
     text-align: end;
 }
+
 
 /* Styling homepage
 ----------------------------------------*/
