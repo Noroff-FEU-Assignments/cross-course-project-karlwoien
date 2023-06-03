@@ -1,6 +1,7 @@
 /* Styling global/general
 ----------------------------------------*/
 
+
 header,
 footer {
     background-color: #fff;
@@ -36,10 +37,10 @@ p {
 header {
     display: flex;
     justify-content: space-between;
-    max-width: 1440px;
     padding: 30px;
     text-transform: uppercase;
     height: 0px;
+    min-height: 50px;
 }
 
 .logo-header {
@@ -73,7 +74,7 @@ nav a:hover{
 }
 
 .shoppingbag {
-    padding: 14px 50px;
+    padding: 14px 48px;
 }
 
 /* Styling footer
@@ -114,30 +115,71 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 100vh;
-    font-size: 65px;
-    color: #fff;
+    height: 1020px;
     text-align:end;
+    position: relative;
+}
+
+.hero-home-cta {
+    position: absolute;
+    width:95%;
+    top: 350px;
+}
+
+.hero-home-h1 {
+    font-size: 68px;
+    color: #fff;   
 }
 
 .discover {
+    padding-top: 50px;
+}
+.discover-content {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: baseline;
     text-align: center;
     text-transform: uppercase;
-    font-size: 40px;
+    margin-right: 70px;
+    margin-left: 70px;
+    padding-bottom: 100px;
 }
+
+.discover-h2 {
+    text-align: center;
+    font-size: 48px;
+    padding-bottom: 1em;
+}
+
 
 .newsletter {
     background-image: url(../images/home/newsletter-img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 100vh;
+    height: 1080px;
     text-align: center;
-    text-transform: uppercase;
-    font-size: 40px;
+    
+}
+
+.newsletter-cta {
+    padding-top: 260px;
+}
+
+.newsletter-h2 {
+    font-size: 48px;
     color: #fff;
 }
+
+.newsletter-field {
+    border: 1px;
+    padding: 11px 20px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #fff;
+}
+
 
 /* Styling shop
 ----------------------------------------*/
@@ -150,7 +192,7 @@ footer {
     background-image: url(../images/about/hero-about.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 100vh;
+    height: 1080px;
 }
 
 /* Styling contact
@@ -179,13 +221,15 @@ footer {
         display: inline-block;
     }
 }
- 
+
+
 /* Styling button
 --------------------------------*/
-.cta-button-red {
+
+.btn--red {
     border: 0;
-    line-height: 2.5;
-    padding: 0 20px;
+    padding: 11px 20px;
+    font-family: 'Questrial', sans-serif;
     font-size: 16px;
     text-transform: uppercase;
     text-align: center;
@@ -194,6 +238,6 @@ footer {
     background-color: #C22525;
 }
 
-.cta-button-red:hover {
+.btn--red:hover {
     background-color: #9b1e1e;
 }
