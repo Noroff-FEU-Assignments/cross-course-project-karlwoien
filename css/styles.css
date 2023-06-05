@@ -1,6 +1,10 @@
 /* Styling global/general
 ----------------------------------------*/
 
+body {
+    margin: 0px 30px;
+  }
+    
 
 header,
 footer {
@@ -217,7 +221,7 @@ footer {
 
 .shop-product-card { 
     border: 1px solid transparent;
-    width: 100%;
+    width: 90%;
 }
 
 .shop-product-card:hover {  
@@ -237,6 +241,28 @@ footer {
 
 /* Styling contact
 ----------------------------------------*/
+
+
+
+/* Styling specific product
+----------------------------------------*/
+
+.specific-product { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0px 30px;
+}
+
+.product-pictures {
+    grid-column: 1/2;
+    display: grid;
+    grid-template-rows: 2;
+}
+
+.product-information { 
+    grid-column: 2/2;
+}
+
 
 /* Styling checkout
 ----------------------------------------*/
