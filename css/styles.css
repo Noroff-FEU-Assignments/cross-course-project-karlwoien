@@ -197,7 +197,33 @@ footer {
 
 /* Styling shop
 ----------------------------------------*/
+.shop-selection {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: baseline;
+    margin: 0px 30px;
+}
 
+.shop-grid-products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0px 30px;
+    gap: 20px;
+    justify-items: center;
+    text-align: center;
+    align-items: baseline;
+}
+
+.shop-product-card { 
+    border: 1px solid transparent;
+    width: 100%;
+}
+
+.shop-product-card:hover {  
+    border: 1px solid;
+    color: #000;
+}
 
 /* Styling about
 ----------------------------------------*/
