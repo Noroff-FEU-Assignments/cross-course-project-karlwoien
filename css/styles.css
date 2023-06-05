@@ -7,7 +7,8 @@ footer {
     background-color: #fff;
     color: black;
     font-family: 'Questrial', sans-serif;
-    width: 100%;
+    text-transform: uppercase;
+    margin: 0px 30px;
 }
 
 a {
@@ -31,6 +32,11 @@ p {
     font-family: 'Hind Siliguri', sans-serif;
 }
 
+.hr {
+    height: 5px;
+    background-color: #000;
+} 
+
 /* Styling header
 ----------------------------------------*/
 
@@ -41,6 +47,7 @@ header {
     text-transform: uppercase;
     height: 0px;
     min-height: 50px;
+    align-content: baseline;
 }
 
 .logo-header {
@@ -74,37 +81,42 @@ nav a:hover{
 }
 
 .shoppingbag {
-    padding: 14px 48px;
+    padding: 14px;
 }
 
 /* Styling footer
 ----------------------------------------*/
 footer {
+    min-height: 250px;
+    padding-top: 50px;
+}
+
+.footer-content {
     display: flex;
     justify-content: space-between;
-    max-width: 1440px;
-    margin: 0, auto;
-
-    height: 0px;
-    padding-top: 100px;
-}
-
-
-.footer-nav {
-    align-self: flex-start;
-    align-items: baseline;
-    align-content: flex-start;
+    padding-top: 20px;
 } 
-   
-.logo-footer {
-    align-self: center;
-    align-items: baseline;
-    align-content: center;
-}
+
+
+.footer-nav ul{
+    list-style-type: none;
+    margin: 0; padding: 0;
+    color: #000;
+    font-size: 14px;
+} 
+
+.footer-nav p{
+    font-size: 16px;
+} 
 
 .footer-nav-some {
     text-align: end;
 }
+
+.footer-some-icons {
+    height: 30px;
+}
+
 
 
 /* Styling homepage
