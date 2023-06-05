@@ -41,13 +41,15 @@ p {
 ----------------------------------------*/
 
 header {
+    min-height: 50px;
+    padding: 20px 0px;
+    text-transform: uppercase;
+}
+
+.header-content {
     display: flex;
     justify-content: space-between;
-    padding: 30px;
-    text-transform: uppercase;
-    height: 0px;
-    min-height: 50px;
-    align-content: baseline;
+    width: 100%;
 }
 
 .logo-header {
