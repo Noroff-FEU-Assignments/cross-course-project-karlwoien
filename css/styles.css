@@ -1,5 +1,10 @@
-/* Styling global/general
-----------------------------------------*/
+
+/* Global styles*/
+
+body {
+    margin: 10px 0px;
+  }
+
 
 header,
 footer {
@@ -12,6 +17,7 @@ footer {
 
 a {
     text-decoration: none;
+    color: #000;
   }
 
 h1,
@@ -42,8 +48,7 @@ p {
     background-color: #000;
 } 
 
-/* Styling header
-----------------------------------------*/
+/* Styling header */
 
 header {
     min-height: 50px;
@@ -91,8 +96,7 @@ nav a:hover{
     padding: 14px;
 }
 
-/* Styling footer
-----------------------------------------*/
+/* Styling footer */
 footer {
     min-height: 250px;
     padding-top: 50px;
@@ -126,8 +130,7 @@ footer {
 
 
 
-/* Styling homepage
-----------------------------------------*/
+/* Styling homepage */
 
 .hero-home {
     background-image: url("../images/home/hero-image.jpg");
@@ -200,8 +203,7 @@ footer {
 }
 
 
-/* Styling shop
-----------------------------------------*/
+/* Styling shop */
 .shop-selection {
     display: flex;
     justify-content: flex-start;
@@ -213,7 +215,6 @@ footer {
 .shop-grid-products {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 0px 30px;
     gap: 20px;
     justify-items: center;
     text-align: center;
@@ -221,8 +222,13 @@ footer {
 }
 
 .shop-product-card { 
+    padding-top: 40px;
     border: 1px solid transparent;
-    width: 90%;
+    width: 400px;
+    height: 500px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .shop-product-card:hover {  
@@ -230,8 +236,16 @@ footer {
     color: #000;
 }
 
-/* Styling about
-----------------------------------------*/
+.selection-all {  
+    color: #C22525;
+}
+
+.shop-button {  
+    padding-top: 40px;
+    align-items: center;
+}
+
+/* Styling about */
 
 .hero-about {
     background-image: url(../images/about/hero-about.jpg);
@@ -239,6 +253,12 @@ footer {
     background-position: center;
     height: 1080px;
     background-repeat: no-repeat;
+}
+
+.hero-about-text {
+    padding-left: 20%;
+    padding-top: 10%;
+    max-width: 440px;
 }
 
 .hero-about h1{
@@ -254,13 +274,11 @@ footer {
     
 }
 
-/* Styling contact
-----------------------------------------*/
+/* Styling contact */
 
 
 
-/* Styling specific product
-----------------------------------------*/
+/* Styling specific product */
 
 .specific-product { 
     display: grid;
@@ -279,14 +297,11 @@ footer {
 }
 
 
-/* Styling checkout
-----------------------------------------*/
+/* Styling checkout */
 
-/* Styling checkout succsess
-----------------------------------------*/
+/* Styling checkout succsess */
 
-/* Media query
--------------------------------*/
+/* Media query */
 
 @media (min-width: 700px) {
     nav {
@@ -304,8 +319,7 @@ footer {
 }
 
 
-/* Styling button
---------------------------------*/
+/* Styling button */
 
 .btn--red {
     border: 0;
