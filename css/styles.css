@@ -1,11 +1,6 @@
 /* Styling global/general
 ----------------------------------------*/
 
-body {
-    margin: 0px 30px;
-  }
-    
-
 header,
 footer {
     background-color: #fff;
@@ -34,6 +29,12 @@ h4 {
 
 p {
     font-family: 'Hind Siliguri', sans-serif;
+}
+
+.p-bold {
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
 }
 
 .hr {
@@ -237,6 +238,20 @@ footer {
     background-size: cover;
     background-position: center;
     height: 1080px;
+    background-repeat: no-repeat;
+}
+
+.hero-about h1{
+    color: #C22525;
+    font-size: 40px;
+}
+
+.hero-about p{
+    font-size: 18px;
+}
+
+.hero-about {
+    
 }
 
 /* Styling contact
