@@ -242,7 +242,7 @@ footer {
 
 .shop-button {  
     padding-top: 40px;
-    align-items: center;
+    text-align: center;
 }
 
 /* Styling about */
@@ -276,7 +276,24 @@ footer {
 
 /* Styling contact */
 
+.contact-us {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 0, 30px;
+}
 
+.contact-information {
+    padding-top: 15%;
+ }
+
+.contact-information h1{
+   font-size: 42px;
+}
+
+.contact-picture {
+    text-align: center;
+}
 
 /* Styling specific product */
 
@@ -284,12 +301,32 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 0px 30px;
+    gap: 20px;
 }
 
-.product-pictures {
-    grid-column: 1/2;
-    display: grid;
-    grid-template-rows: 2;
+.large-view {
+    background-color: #EFEDED;
+    justify-content: space-between;
+    width: 640px;
+    height: 530px;
+    text-align: center;
+}
+
+.jacket-large-view {
+    width: 410px;
+    padding-top: 20px;
+}
+
+.small-view {
+    display: flex;
+    justify-content: space-between;
+    width: 640px;
+}
+
+.jacket-small-view {
+    height: 190px;
+    width: 200px;
+    background-color: #EFEDED;
 }
 
 .product-information { 
@@ -298,6 +335,24 @@ footer {
 
 
 /* Styling checkout */
+
+.grid-checkout { 
+    display: grid;
+    grid-template-columns: 2/3fr 1/3fr;
+}
+
+.checkout-summary { 
+    grid-column: 1/2;
+}
+
+.shipping { 
+    grid-column: 2/2;
+}
+
+.payment { 
+    grid-column: 2/2;
+}
+
 
 /* Styling checkout succsess */
 
@@ -335,4 +390,20 @@ footer {
 
 .btn--red:hover {
     background-color: #9b1e1e;
+}
+
+.btn--white {
+    border: solid 1px;
+    padding: 11px 20px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    border-radius: 5px;
+    border-color: #C22525;
+}
+
+.btn--white:hover {
+    color: #9b1e1e;
 }
