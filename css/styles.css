@@ -44,7 +44,7 @@ p {
 }
 
 .hr {
-    height: 5px;
+    height: 1px;
     background-color: #000;
 } 
 
@@ -157,14 +157,25 @@ footer {
     padding-top: 50px;
 }
 .discover-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: baseline;
     text-align: center;
     text-transform: uppercase;
-    margin-right: 70px;
-    margin-left: 70px;
     padding-bottom: 100px;
+}
+
+.discover-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 40px;
+}
+
+.discover-column {
+    flex-direction: column;
+    flex: 1;
+}
+.discover-column p{
+    padding-bottom: 10px;
 }
 
 .discover-h2 {
@@ -221,7 +232,7 @@ footer {
     align-items: baseline;
 }
 
-.shop-product-card { 
+.product-card { 
     padding-top: 40px;
     border: 1px solid transparent;
     width: 400px;
@@ -231,7 +242,7 @@ footer {
     text-transform: uppercase;
 }
 
-.shop-product-card:hover {  
+.product-card:hover {  
     border: 1px solid;
     color: #000;
 }
@@ -283,15 +294,25 @@ footer {
 /* Styling contact */
 
 .contact-us {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
     margin: 0, 30px;
 }
 
+.contact-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+ }
+
+ .contact-column {
+    flex-direction: column;
+    flex: 1;
+ }
+
 .contact-information {
-    padding-top: 15%;
-    width: 400px;
+    padding-top: 10%;
+    max-width: 400px;
  }
 
 .contact-information h1{
@@ -330,41 +351,82 @@ textarea {
 /* Styling specific product */
 
 .specific-product { 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 0px 30px;
     gap: 20px;
+    margin: 0px 30px;
+}
+
+.product-row { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 40px;
+}
+
+.product-column { 
+    flex-direction: column;
+    flex: 1;
 }
 
 .large-view {
     background-color: #EFEDED;
-    justify-content: space-between;
-    width: 640px;
-    height: 530px;
+    max-width: 640px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
-.picture-large-view {
-    width: 410px;
+.large-view-picture {
+    width: 460px;
     padding-top: 20px;
 }
 
 .small-view {
     display: flex;
     justify-content: space-between;
+    text-align:center;
     width: 640px;
+    height: 190px;
 }
 
-.picture-small-view {
+.small-view-container {
     height: 190px;
     width: 200px;
     background-color: #EFEDED;
 }
 
-.product-information { 
-    grid-column: 2/2;
+.small-view-picture {
+    max-width: 90%;
+    max-height: 90%;
 }
 
+.product-information h1{ 
+    font-size: 40px;
+}
+
+.product-information h3{ 
+    font-size: 24px;
+}
+
+.product-information p{ 
+    max-width: 400px;
+}
+
+.product-information .p-bold{ 
+    color: #000;
+}
+
+.product-size { 
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.product-information ul{ 
+    font-size: 18px;
+    font-family: 'Hind Siliguri', sans-serif;;
+    color: #000;
+    padding-bottom: 90px;
+}
 
 /* Styling checkout */
 
