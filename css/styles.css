@@ -236,6 +236,12 @@ footer {
     color: #000;
 }
 
+.background-design { 
+    width: 400px;
+    height: 400px;
+    background-color: #EFEDED;
+}
+
 .selection-all {  
     color: #C22525;
 }
@@ -285,6 +291,7 @@ footer {
 
 .contact-information {
     padding-top: 15%;
+    width: 400px;
  }
 
 .contact-information h1{
@@ -293,6 +300,31 @@ footer {
 
 .contact-picture {
     text-align: center;
+    max-width: auto;
+}
+
+.telephone-mail {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+input,
+textarea {
+    font-family: 'Questrial', sans-serif;
+    font-size: 100%;
+    width: 190px;
+}
+
+textarea {
+    height: 150px;
+    resize: none;
+    width: 395px;
+    margin: 10px 0px 20px 0px;
+}
+
+.submit-btn {
+    text-align: right;
 }
 
 /* Styling specific product */
@@ -312,7 +344,7 @@ footer {
     text-align: center;
 }
 
-.jacket-large-view {
+.picture-large-view {
     width: 410px;
     padding-top: 20px;
 }
@@ -323,7 +355,7 @@ footer {
     width: 640px;
 }
 
-.jacket-small-view {
+.picture-small-view {
     height: 190px;
     width: 200px;
     background-color: #EFEDED;
