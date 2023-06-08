@@ -37,15 +37,21 @@
       <div class="contact-information">
         <h1>how can we help you?</h1>
         <p>Please feel free to contact us if you have any questions!</p>
-        <img src="images/icons/telephone-icon.png" alt="telephone-icon">
-        <p>+47 900 00 000</p>
-        <img src="images/icons/mail-icon.png" alt="mail-icon">
-        <p>hello@rainydays.com</p>
+        <div class="telephone-mail">
+          <img src="images/icons/telephone-icon.png" alt="telephone-icon">
+          <p>+47 900 00 000</p>
+        </div>
+        <div class="telephone-mail">
+          <img src="images/icons/mail-icon.png" alt="mail-icon">
+          <p>hello@rainydays.com</p>
+        </div>
         <form>
           <input type="name" placeholder="Name">
           <input type="e-mail" placeholder="E-mail">
-          <input type="message" placeholder="Your message">
-          <button class="cta-button-red">Submit</button>
+          <textarea id="message" name="message" placeholder="Your message"></textarea>
+          <div class="submit-btn">
+            <a id=contact-btn class="btn--red">Submit</a>
+          </div>
         </form>
       </div>
     </section>
