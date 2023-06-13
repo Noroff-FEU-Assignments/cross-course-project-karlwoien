@@ -213,8 +213,9 @@ footer {
 }
 
 .newsletter-field {
-    border: 1px;
-    padding: 11px 20px;
+    border: 0;
+    width: 250px;
+    padding: 8px 20px;
     font-family: 'Questrial', sans-serif;
     font-size: 16px;
     border-radius: 5px;
@@ -406,6 +407,10 @@ footer {
     max-height: 90%;
 }
 
+.product-information { 
+    max-width: 600px;
+}
+
 .product-information h1{ 
     font-size: 40px;
 }
@@ -422,18 +427,41 @@ footer {
     color: #000;
 }
 
-.product-size { 
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 80px;
-}
-
 .product-information ul{ 
     font-size: 18px;
     font-family: 'Hind Siliguri', sans-serif;;
     color: #000;
     padding-bottom: 90px;
 }
+
+.product-size { 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: baseline;
+    padding-bottom: 80px;
+}
+
+.product-size-left { 
+    text-align: start;
+    display: flex;
+    gap: 20px;
+}
+
+.product-size-right { 
+    text-align: end;
+    
+}
+
+.product-size-selection { 
+    border: 1px solid transparent;
+    width: 25px;
+    text-align: center;
+}
+
+.product-size-selection:hover { 
+    border: 1px solid;
+}
+
 
 /* Styling checkout */
 
