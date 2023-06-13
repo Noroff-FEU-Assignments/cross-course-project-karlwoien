@@ -52,7 +52,7 @@ textarea {
     font-family: 'Questrial', sans-serif;
     font-size: 100%;
     border-radius: 5px;
-    border: solid #000;
+    border: 1px solid #000;
     height: 30px;
 }
 
