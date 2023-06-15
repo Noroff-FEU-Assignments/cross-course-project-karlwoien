@@ -6,10 +6,9 @@ body {
   }
 
 
-header,
-footer {
+header, footer {
     background-color: #fff;
-    color: black;
+    color: #000;
     font-family: 'Questrial', sans-serif;
     text-transform: uppercase;
     margin: 0px 30px;
@@ -20,9 +19,7 @@ a {
     color: #000;
   }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     font-family: 'Fjalla One', sans-serif;
     text-transform: uppercase;
 }
@@ -33,7 +30,7 @@ h4 {
     font-size: 1.125rem;
 }
 
-p {
+p, .p-bold {
     font-family: 'Hind Siliguri', sans-serif;
     font-size: 1.125rem;
 }
@@ -41,15 +38,13 @@ p {
 .p-bold {
     font-weight: bold;
     color: #fff;
-    font-size: 1.125rem;
 }
 
 .hr {
     height: 1px solid #000;
 } 
 
-input,
-textarea {
+input, textarea {
     font-family: 'Questrial', sans-serif;
     font-size: 100%;
     border-radius: 5px;
@@ -62,9 +57,6 @@ textarea {
 header {
     min-height: 50px;
     padding: 20px 0px;
-    text-transform: uppercase;
-    background-color: #fff;
-    color: #000;
 }
 
 .header-content {
@@ -241,12 +233,8 @@ footer {
 
 .product-card { 
     padding-top: 40px;
-    border: 1px solid transparent;
     width: 400px;
     height: 500px;
-    color: #000;
-    text-decoration: none;
-    text-transform: uppercase;
 }
 
 .product-card:hover {  
@@ -255,7 +243,6 @@ footer {
 }
 
 .background-design { 
-    width: 400px;
     height: 500px;
     background-color: #EFEDED;
 }
