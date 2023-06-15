@@ -256,7 +256,7 @@ footer {
 
 .background-design { 
     width: 400px;
-    height: 400px;
+    height: 500px;
     background-color: #EFEDED;
 }
 
@@ -288,6 +288,10 @@ footer {
 .hero-about h1{
     color: #C22525;
     font-size: 2.5rem;
+}
+
+.about-img-mobile {
+    display: none;
 }
 
 /* Styling contact */
@@ -681,10 +685,45 @@ nav a {
     .newsletter-cta {
         padding-top: 150px;
     }
-    .hero-about {
-        background-image: url(../images/about/hero-about-mobile.jpg);
-        height: 500px;
+    .newsletter-field {
+    width: 150px;
     }
+    .shop-selection h2 {
+    font-size: 1rem;
+    }
+    .product-card { 
+    padding-top: 0px;
+    width: 300px;
+    height: 450px;
+    }
+    .background-design { 
+    width: 300px;
+    height: 450px;
+    }
+     .product-card img { 
+    width: 290px;
+    }
+    .hero-about {
+    background-image: none;
+    }
+    .hero-about-text {
+    padding:0;
+    }
+    .about-img-mobile {
+    display:block;
+    text-align: center;
+    }
+    .hero-about h1{
+    font-size: 2rem;
+    text-align: center;
+    }
+    .hero-about p{
+    
+    padding-left: 20px;
+}
+    .hero-about .p-bold {
+    color: #000;
+}
 }
 
 
