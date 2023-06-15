@@ -571,23 +571,16 @@ footer {
     .hamburger-icon {
     display:block;
     padding-top: 22px;
-    padding-right: 10px;
     }
 
     #menu-checkbox:checked ~ nav {
     display: block;
-    padding-top:28px;
-    position: absolute;
-    top: 0px;
-    right: 60px;
+    padding-top:8px;
     }
 
     nav a {
     display: block;
     padding: 10px;
-    padding-top: 10px;
-    font-size: 28px;
-    background-color: #fff;
     }
 
     .logo-header {
