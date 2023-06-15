@@ -322,6 +322,10 @@ footer {
     max-height: 700px;
 }
 
+.contact-picture-mobile img {
+    display: none;
+    }
+
 .telephone-mail {
     display: flex;
     align-items: center;
@@ -393,7 +397,6 @@ footer {
 
 .product-information { 
     max-width: 600px;
-    min-width: 380px;
 }
 
 .product-information h1{ 
@@ -434,7 +437,6 @@ footer {
 
 .product-size-right { 
     text-align: end;
-    
 }
 
 .product-size-selection { 
@@ -455,10 +457,6 @@ footer {
     grid-template-columns: 1fr 0.8fr;
     padding-left: 30px;
     padding-top: 30px;
-}
-
-.checkout-summary {
-    min-width: 340px;
 }
 
 .summary-grid { 
@@ -488,7 +486,6 @@ footer {
     width: 200px;
     height: 30px;
     margin: 10px 0px 10px 0px;
-    
 }
 
 .payment-method { 
@@ -569,47 +566,47 @@ footer {
     nav,
     #menu-checkbox {
     display: none;
-}
+    }
 
-.hamburger-icon {
+    .hamburger-icon {
     display:block;
     padding-top: 22px;
     padding-right: 10px;
-}
+    }
 
-#menu-checkbox:checked ~ nav {
-  display: block;
-  padding-top:28px;
-  position: absolute;
-  top: 0px;
-  right: 60px;
-}
+    #menu-checkbox:checked ~ nav {
+    display: block;
+    padding-top:28px;
+    position: absolute;
+    top: 0px;
+    right: 60px;
+    }
 
-nav a {
+    nav a {
     display: block;
     padding: 10px;
     padding-top: 10px;
     font-size: 28px;
     background-color: #fff;
-}
+    }
 
-.logo-header {
+    .logo-header {
     flex: 1;    
-}
+    }
 
-.shoppingbag-mobile {
+    .shoppingbag-mobile {
     display: block;
     padding-top: 14px;
     padding-right: 20px;
-}
+    }
 
-.shoppingbag-desktop {
+    .shoppingbag-desktop {
     display: none; 
-}
+    }
 
-.shop-grid-products {
+    .shop-grid-products {
     grid-template-columns: 1fr;
-}
+    }
 }
 
 @media (max-width: 660px) {
@@ -634,8 +631,25 @@ nav a {
     .footer-logo img{
         width: 110px;
     }
-}
 
+    .product-pictures{
+       width: 400px;
+    }
+    .large-view{
+        width: 400px;
+    }
+    .large-view-picture{
+        width: 300px;
+    }
+    .small-view {
+        width: 400px;
+        height: 110px;
+    }
+    .small-view-container {
+        height: 140px;
+        width: 120px;
+    }
+}
 
 @media (max-width: 440px) {
     header,
@@ -646,7 +660,6 @@ nav a {
         width: 90px;
         padding-top: 10px;
         }
-
     footer {
         min-height: 150px;
     } 
@@ -659,9 +672,6 @@ nav a {
     .footer-nav ul{
         font-size: 0.75rem;
     } 
-    h1 {
-    font-size: 28px;
-    }
     .hero-home-h1 {
         font-size: 1.625rem;
     }
@@ -671,6 +681,7 @@ nav a {
     }
     .hero-home-cta {
         top: 130px;
+        width: 99%;
     }
     .discover-h2 {
         font-size: 1.75rem;
@@ -718,12 +729,86 @@ nav a {
     text-align: center;
     }
     .hero-about p{
-    
     padding-left: 20px;
-}
+    }
     .hero-about .p-bold {
     color: #000;
-}
+    }
+    .contact-picture img {
+    display: none;
+    }
+    .contact-picture-mobile img {
+    display: block;
+    }
+    .contact-information {
+    padding: 0 0 0 20px;
+    }
+    .contact-row {
+    gap: 10px;
+    }
+    .contact-column textarea {
+        height: 150px;
+        width: 320px;
+    }
+    .contact-column input {
+        width: 155px;
+    }
+    .submit-btn {
+        text-align: left;
+    }
+
+    .product-pictures{
+        width: 350px;
+     }
+    .large-view{
+        width: 350px;
+    }
+    .large-view-picture{
+        width: 300px;
+    }
+    .small-view {
+        width: 350px;
+    }
+    .small-view-container {
+        height: 120px;
+        width: 100px;
+    }
+    .product-size-left { 
+        gap: 5px;
+    }
+
+    .grid-checkout { 
+        padding-left: 10px;
+        padding-top: 0px;
+    }
+    .summary-padding {
+        padding-top: 1rem; 
+    }
+    .product-img-bag { 
+        height: 80px;
+    }
+    .shipping-payment { 
+        padding-top:10px;
+    }
+    .shipping-payment input {
+        width: 170px;
+    }
+
+    .content-box { 
+        border:none;
+        height: 70%;
+    }
+    .checkout-success { 
+        padding:0;
+        margin: 0;
+    }
+    .img-success { 
+        padding-top: 50px;
+    }
+    
+    .p-shipping { 
+        padding-top: 50px;
+    }
 }
 
 
