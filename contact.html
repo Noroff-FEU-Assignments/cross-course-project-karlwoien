@@ -53,9 +53,15 @@
                 <p>hello@rainydays.com</p>
               </div>
               <form>
-                <input type="text" name="name" placeholder="Name">
-                <input type="text" id="email" placeholder="E-mail">
-                <textarea id="message" name="message" placeholder="Your message"></textarea>
+                <label> <span class="hidden-text"> First name input for contact form </span>
+                  <input type="text" name="name" placeholder="Name">
+                </label>
+                <label> <span class="hidden-text"> E-mail input for contact form </span>
+                  <input type="email" id="email" placeholder="E-mail">
+                </label>
+                <label> <span class="hidden-text"> Textarea for  your message using the contact form </span>
+                  <textarea id="message" name="message" placeholder="Your message"></textarea>
+                </label>
                 <div class="submit-btn">
                   <a id=contact-btn class="btn--red">Submit</a>
                 </div>
