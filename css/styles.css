@@ -52,6 +52,10 @@ input, textarea {
     height: 30px;
 }
 
+.hidden-text {
+    display: none;
+} 
+
 /* Styling header */
 
 header {
