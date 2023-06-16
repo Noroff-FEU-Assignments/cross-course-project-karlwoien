@@ -187,6 +187,7 @@ footer {
 
 .newsletter {
     background-image: url(../images/home/newsletter-img.jpg);
+    background-color: #000;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
