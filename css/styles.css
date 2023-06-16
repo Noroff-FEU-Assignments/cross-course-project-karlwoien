@@ -240,6 +240,7 @@ footer {
     padding-top: 40px;
     width: 400px;
     height: 500px;
+    text-transform: uppercase;
 }
 
 .product-card:hover {  
@@ -641,7 +642,7 @@ footer {
     }
 }
 
-@media (max-width: 440px) {
+@media (max-width: 460px) {
     header,
     footer {
     margin: 0px 10px;
@@ -663,7 +664,7 @@ footer {
         font-size: 0.75rem;
     } 
     .hero-home-h1 {
-        font-size: 1.625rem;
+        font-size: 1.5rem;
     }
     .hero-home {
         background-image: url("../images/home/hero-image-mobile.jpg");
@@ -674,7 +675,10 @@ footer {
         width: 99%;
     }
     .discover-h2 {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
+    }
+    .discover-column img { 
+        width: 290px;
     }
     .newsletter {
         background-image: url(../images/home/newsletter-img-mobile.jpg);
@@ -729,6 +733,7 @@ footer {
     }
     .contact-picture-mobile img {
     display: block;
+    width: 390px;
     }
     .contact-information {
     padding: 0 0 0 20px;
@@ -738,10 +743,10 @@ footer {
     }
     .contact-column textarea {
         height: 150px;
-        width: 320px;
+        width: 290px;
     }
     .contact-column input {
-        width: 155px;
+        width: 140px;
     }
     .submit-btn {
         text-align: left;
