@@ -133,6 +133,7 @@ footer {
 
 .hero-home {
     background-image: url("../images/home/hero-image.jpg");
+    opacity: 1;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -149,7 +150,7 @@ footer {
 
 .hero-home-h1 {
     font-size: 4.25rem;
-    color: #000;   
+    color: #fff;   
 }
 
 .discover {
