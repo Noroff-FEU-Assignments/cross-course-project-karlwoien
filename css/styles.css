@@ -5,7 +5,6 @@ body {
     margin: 0;
   }
 
-
 header, footer {
     background-color: #fff;
     color: #000;
@@ -104,6 +103,7 @@ nav a:hover{
 }
 
 /* Styling footer */
+
 footer {
     min-height: 250px;
     padding-top: 50px;
@@ -115,14 +115,12 @@ footer {
     padding-top: 20px;
 } 
 
-
 .footer-nav ul{
     list-style-type: none;
     margin: 0; padding: 0;
     color: #000;
     font-size: 0.875rem;
 } 
-
 
 .footer-nav-some {
     text-align: end;
@@ -159,6 +157,7 @@ footer {
 .discover {
     padding-top: 50px;
 }
+
 .discover-content {
     text-align: center;
     text-transform: uppercase;
@@ -187,7 +186,6 @@ footer {
     padding-bottom: 1em;
 }
 
-
 .newsletter {
     background-image: url(../images/home/newsletter-img.jpg);
     background-color: #000;
@@ -196,7 +194,6 @@ footer {
     background-position: center;
     height: 1080px;
     text-align: center;
-    
 }
 
 .newsletter-cta {
@@ -217,8 +214,8 @@ footer {
     color: #fff;
 }
 
-
 /* Styling shop */
+
 .shop-selection {
     display: flex;
     justify-content: flex-start;
@@ -305,7 +302,6 @@ footer {
     gap: 40px;
     justify-content: center;
  }
-
 
 .contact-information {
     padding-top: 10%;
@@ -447,7 +443,6 @@ footer {
     border: 1px solid;
 }
 
-
 /* Styling checkout */
 
 .grid-checkout { 
@@ -534,9 +529,11 @@ footer {
 /* Media query */
 
 @media (max-width: 1200px) {
+    /* styling shop*/
     .shop-grid-products {
     grid-template-columns: 1fr 1fr;
     }
+    /*styling specific product*/
     .product-information ul{ 
         padding-bottom: 10px;
     }
@@ -546,6 +543,7 @@ footer {
 }
 
 @media (max-width: 1080px) {
+    /* styling checkout*/
     .grid-checkout {
     grid-template-columns: 1fr;
     padding-left: 30px;
@@ -561,52 +559,53 @@ footer {
 }
 
 @media (max-width: 820px) {
+    /* styling hamburger menu*/
     nav,
     #menu-checkbox {
     display: none;
     }
-
     .hamburger-icon {
     display:block;
     padding-top: 22px;
     }
-
     #menu-checkbox:checked ~ nav {
     display: block;
     padding-top:8px;
     }
-
     nav a {
     display: block;
     padding: 10px;
     }
 
+    /* styling header*/
     .logo-header {
     flex: 1;    
     }
-
     .shoppingbag-mobile {
     display: block;
     padding-top: 14px;
     padding-right: 20px;
     }
-
     .shoppingbag-desktop {
     display: none; 
     }
 
+    /* styling shop*/
     .shop-grid-products {
     grid-template-columns: 1fr;
     }
 }
 
 @media (max-width: 660px) {
+    /* styling homepage*/
     .hero-home-h1 {
         font-size: 3rem;
     }
     .newsletter-h2 {
         font-size: 1.75rem;
     }
+
+    /*styling footer*/
     footer {
         min-height: 200px;
     } 
@@ -623,6 +622,7 @@ footer {
         width: 110px;
     }
 
+    /* styling specific product*/
     .product-pictures{
        width: 400px;
     }
@@ -643,14 +643,19 @@ footer {
 }
 
 @media (max-width: 460px) {
+    /*global styles*/
     header,
     footer {
     margin: 0px 10px;
     }
+
+    /* styling header*/
     .logo-header img{
         width: 90px;
         padding-top: 10px;
         }
+
+    /*styling footer*/
     footer {
         min-height: 150px;
     } 
@@ -663,6 +668,8 @@ footer {
     .footer-nav ul{
         font-size: 0.75rem;
     } 
+
+    /*styling homepage*/
     .hero-home-h1 {
         font-size: 1.5rem;
     }
@@ -693,6 +700,8 @@ footer {
     .newsletter-field {
     width: 150px;
     }
+
+    /*styling shop*/
     .shop-selection h2 {
     font-size: 1rem;
     }
@@ -708,6 +717,8 @@ footer {
      .product-card img { 
     width: 290px;
     }
+
+    /*styling about*/
     .hero-about {
     background-image: none;
     }
@@ -728,6 +739,8 @@ footer {
     .hero-about .p-bold {
     color: #000;
     }
+
+    /*styling contact*/
     .contact-picture img {
     display: none;
     }
@@ -752,6 +765,7 @@ footer {
         text-align: left;
     }
 
+    /*styling specific product*/
     .product-pictures{
         width: 350px;
      }
@@ -772,6 +786,7 @@ footer {
         gap: 5px;
     }
 
+    /*styling checkout*/
     .grid-checkout { 
         padding-left: 10px;
         padding-top: 0px;
@@ -789,6 +804,7 @@ footer {
         width: 170px;
     }
 
+    /*styling checkout success*/
     .content-box { 
         border:none;
         height: 70%;
@@ -805,8 +821,6 @@ footer {
         padding-top: 50px;
     }
 }
-
-
 
 
 /* Styling button */
