@@ -37,7 +37,6 @@ p, .p-bold {
 
 .p-bold {
     font-weight: bold;
-    color: #fff;
 }
 
 .hr {
@@ -287,6 +286,11 @@ footer {
     display: none;
 }
 
+.p-bold-about {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
 /* Styling contact */
 
 .contact-us {
@@ -404,7 +408,7 @@ footer {
     max-width: 400px;
 }
 
-.product-information .p-bold{ 
+.product-information { 
     color: #000;
 }
 
