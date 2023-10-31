@@ -233,6 +233,11 @@ footer {
     align-items: baseline;
 }
 
+.shop-grid-products img{
+    max-width: 100%;
+    max-height: auto;
+}
+
 .product-card { 
     padding-top: 40px;
     width: 400px;
