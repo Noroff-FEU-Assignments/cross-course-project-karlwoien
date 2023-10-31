@@ -10,14 +10,16 @@ if (location.pathname === "/shop.html") {
 }
 
 
-if (location.pathname === "/specific-product.html") { // spesifikt produkt
+if (location.pathname === "/specific-product.html") { 
+// spesifikt produkt
 // get id from url
 // fetch product
 // render product
     productSpecificPage()
 }
 
-if (location.pathname === "/index.html") { //HJEMMESIDEN
+if (location.pathname === "/index.html") { 
+    //HJEMMESIDEN
     // get id from url
     // fetch product
     // render product
