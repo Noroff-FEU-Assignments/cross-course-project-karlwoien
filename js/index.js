@@ -1,23 +1,25 @@
-import { productSpecificPage } from "./product";
-import { productsPage } from "./products";
+import { productSpecificPage } from "./product.js";
+import { productsPage } from "./products.js";
+import { newArrivals } from "./newArrivals.js";
 
-
-if (location.pathname === "/shop/") { // oversikt alle jakker
+if (location.pathname === "/shop.html") { 
+// oversikt alle jakker
 // fetch products
 // render products
-productsPage()
+    productsPage()
 }
 
 
-if (location.pathname === "/specific-product/") { // spesifikt produkt
+if (location.pathname === "/specific-product.html") { // spesifikt produkt
 // get id from url
 // fetch product
 // render product
-productSpecificPage()
+    productSpecificPage()
 }
 
-if (location.pathname === "/home/") { //HJEMMESIDEN
+if (location.pathname === "/index.html") { //HJEMMESIDEN
     // get id from url
     // fetch product
     // render product
-    }
+    newArrivals()
+}
