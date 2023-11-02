@@ -228,14 +228,18 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
-    justify-items: center;
+    padding-top: 40px;
     text-align: center;
-    align-items: baseline;
+    max-width: 100%;
+    max-height: auto;
 }
 
 .shop-grid-products img{
-    max-width: 100%;
-    max-height: auto;
+    height: 500px;
+}
+
+.shop-grid-products img:hover{
+    transform: scale(1.08);
 }
 
 .product-card { 
