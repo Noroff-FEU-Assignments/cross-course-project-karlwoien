@@ -1,11 +1,9 @@
-import { productSpecificPage } from "./product.js";
-import { productsPage } from "./products.js";
-import { newArrivals } from "./newArrivals.js";
+import { productSpecificPage } from "/js/pages/product.js";
+import { productsPage } from "/js/pages/products.js";
+import { newArrivals } from "/js/pages/newArrivals.js";
 
 if (location.pathname === "/shop.html") { 
 // oversikt alle jakker
-// fetch products
-// render products
     productsPage()
 }
 

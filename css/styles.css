@@ -367,17 +367,18 @@ footer {
     gap: 40px;
 }
 
-.large-view {
-    background-color: #EFEDED;
-    width: 640px;
-    text-align: center;
-    margin-bottom: 20px;
+.product-row img{ 
+    max-width: 400px;
+    max-height: auto;
 }
 
-.large-view-picture {
-    width: 460px;
-    padding-top: 20px;
+.large-view img{
+    max-width: 400px;
+    max-height: auto;
+    padding-bottom: 20px;
 }
+
+
 
 .small-view {
     display: flex;
