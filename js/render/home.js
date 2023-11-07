@@ -5,7 +5,7 @@ export function renderNewArrivals(productData) {
     const img = document.createElement ("img");
     img.src = productData.image;
     img.alt = productData.title;
-    img.style.height = "500px";
+    img.style.height = "400px";
     newArrivals.append(img);
 
     const productTitle = document.createElement("h3");

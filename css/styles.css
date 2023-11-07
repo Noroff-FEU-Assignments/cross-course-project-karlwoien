@@ -368,24 +368,22 @@ footer {
 }
 
 .product-row img{ 
-    max-width: 400px;
+    max-width: 600px;
     max-height: auto;
 }
 
-.large-view img{
+.large-view {
     max-width: 400px;
     max-height: auto;
     padding-bottom: 20px;
-}
-
-
+}   
 
 .small-view {
     display: flex;
     justify-content: space-between;
     text-align:center;
-    width: 640px;
-    height: 190px;
+    width: 190px;
+    height: 200px;
 }
 
 .small-view-container {
