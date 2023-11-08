@@ -166,10 +166,15 @@ footer {
 
 .discover-row {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     gap: 40px;
     justify-content: space-around;
+    
+}
+
+.discover-row img{
+    max-height: 400px;
+    max-width: 100%;
 }
 
 .discover-column {
