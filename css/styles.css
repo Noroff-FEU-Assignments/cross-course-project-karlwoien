@@ -869,3 +869,37 @@ footer {
 .btn--white:hover {
     color: #9b1e1e;
 }
+
+.loader {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 50vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 1s, visivility 1s;
+}
+
+.loader-hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.loader::after {
+    content: "";
+    width: 60px;
+    height: 60px;
+    border: 10px solid #EFEDED;
+    border-top-color: #C22525;
+    border-radius: 50%;
+    animation: loading 0.5s linear infinite;
+}
+
+@keyframes loading {
+    to {
+        transform: rotate(1turn);
+    }
+  
+}
