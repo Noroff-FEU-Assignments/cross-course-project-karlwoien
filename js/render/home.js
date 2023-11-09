@@ -29,10 +29,7 @@ export function renderNewArrivals (news) {
         newArrivals.append(button);
 
         
-        container.append(image)
-        container.append(title)
-        container.append(price)
-        container.append(button)        
+        container.append(image, title, price, button)        
     
         product.append(container)
 
