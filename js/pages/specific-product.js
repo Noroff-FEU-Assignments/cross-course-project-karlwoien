@@ -1,15 +1,15 @@
 import { getProduct } from "../api/products.js";
-import { renderProductSpecific } from "../render/product.js";
+import { renderSpecificProduct } from "../render/specific-product.js";
 import { loader } from "../constants.js";
 
-export async function productSpecificPage() {
+export async function specificProduct() {
   try {
     loader.classList.remove("loader");
     const url = new URL(location.href);
     const id = url.searchParams.get("id");
 
     const product = await getProduct(id);
-    renderProductSpecific(product);
+    renderSpecificProduct(product);
   }
   catch (error) {
     alert(error);

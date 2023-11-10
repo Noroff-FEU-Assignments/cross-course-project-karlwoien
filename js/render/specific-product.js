@@ -1,4 +1,4 @@
-export function renderProductSpecific (productData) {
+export function renderSpecificProduct (productData) {
     const productElement = document.createElement ("div");
     productElement.classList.add("product-row")
 
@@ -55,6 +55,6 @@ export function renderProductSpecific (productData) {
     document.querySelector(".specific-product").append(productElement);
 }
 
-export function renderProductsSpecific (specificProduct) {
-    specificProduct.forEach(renderProductSpecific)
-}
+//export function renderProductsSpecific (specificProduct) {
+//    specificProduct.forEach(renderProductSpecific)
+//}
