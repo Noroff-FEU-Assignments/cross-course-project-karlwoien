@@ -1,9 +1,9 @@
-import { productsPage } from "/js/pages/products.js";
 import { home } from "/js/pages/home.js";
 import { specificProduct } from "./pages/specific-product.js";
+import { shopProducts } from "./pages/products.js";
 
 if (location.pathname === "/shop.html") {
-    productsPage()
+    shopProducts()
 }
 
 
