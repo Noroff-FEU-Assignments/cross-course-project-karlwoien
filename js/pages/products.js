@@ -4,9 +4,9 @@ import { loader } from "../constants.js";
 
 export async function shopProducts() {
   try{
-    loader.classList.remove ("loader");
     const products = await getProducts();
     renderProducts(products);
+    loader.classList.remove ("loader");
   }
   catch (error) {
     alert (error);

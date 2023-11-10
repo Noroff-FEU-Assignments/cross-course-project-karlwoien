@@ -871,11 +871,10 @@ footer {
 }
 
 *.loader {
-    position: fixed;
     display: flex;
     top: 0;
     width: 100vw;
-    height: 50vh;
+    height: 10vh;
     justify-content: center;
     align-items: center;
     transition: opacity 1s, visivility 1s;

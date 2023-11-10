@@ -1,5 +1,6 @@
 import { getProducts } from "../api/products.js";
 import { renderNewArrivals } from "../render/home.js";
+import { loader } from "../constants.js";
 
 export function home () {
     // fetch products for discover new arrivals
@@ -22,6 +23,6 @@ export function home () {
         newArrivals.innerHTML = renderNewArrivals(discoverNewArrivals)
         
     }
-
     getNewArrivals()
+    loader.classList.remove("loader")
 }

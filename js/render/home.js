@@ -1,4 +1,4 @@
-import { loader } from "../constants.js";
+
 
 export function renderNewArrivals (discoverNewArrivals) {
 
@@ -38,7 +38,7 @@ export function renderNewArrivals (discoverNewArrivals) {
         newArrivals.append(product)
 
     }
-    loader.classList.remove("loader")
+  
     
     return newArrivals.innerHTML;
 }
