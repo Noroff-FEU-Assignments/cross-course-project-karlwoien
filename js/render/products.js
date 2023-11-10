@@ -1,3 +1,5 @@
+import { loader } from "../constants.js";
+
 export function renderProduct (productData) {
     const productElement = document.createElement ("a");
     productElement.href = "/specific-product.html?id=" + productData.id;
@@ -14,6 +16,8 @@ export function renderProduct (productData) {
     const productPrice = document.createElement("p");
     productPrice.innerText = "$ " + productData.price;
     productElement.append(productPrice);
+
+    loader.classList.remove("loader");
     
     document.querySelector(".shop-grid-products").append(productElement);
 }

@@ -1,3 +1,5 @@
+import { loader } from "../constants.js";
+
 export function renderNewArrivals (news) {
 
     //Create container
@@ -34,7 +36,9 @@ export function renderNewArrivals (news) {
         product.append(container)
 
         newArrivals.append(product)
+
     }
+    loader.classList.remove("loader")
     
     return newArrivals.innerHTML;
 }

@@ -870,12 +870,11 @@ footer {
     color: #9b1e1e;
 }
 
-.loader {
+*.loader {
     position: fixed;
     display: flex;
     top: 0;
-    left: 0;
-    width: 50vw;
+    width: 100vw;
     height: 50vh;
     justify-content: center;
     align-items: center;
