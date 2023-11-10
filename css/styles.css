@@ -901,3 +901,15 @@ footer {
     }
   
 }
+
+.error {
+    border: solid #C22525;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.error-message {
+    font-size: 25px;
+    color: #C22525;
+}
