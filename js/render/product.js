@@ -1,5 +1,3 @@
-import { loader } from "../constants.js";
-
 export function renderProductSpecific (productData) {
     const productElement = document.createElement ("div");
     productElement.classList.add("product-row")
@@ -53,8 +51,6 @@ export function renderProductSpecific (productData) {
     productTitle.append(productPrice, productDescription, textHr, productSizeContainer, continueShopping);
 
     productElement.append(img, productTitle);
-
-    loader.classList.remove("loader");
 
     document.querySelector(".specific-product").append(productElement);
 }
