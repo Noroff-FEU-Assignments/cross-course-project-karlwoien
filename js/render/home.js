@@ -1,6 +1,6 @@
 import { loader } from "../constants.js";
 
-export function renderNewArrivals (news) {
+export function renderNewArrivals (discoverNewArrivals) {
 
     //Create container
     let newArrivals = document.createElement ("div");
@@ -8,22 +8,22 @@ export function renderNewArrivals (news) {
 
     //discover new arrivals
 
-    for (let i = 0; i < news.length; i++) {
+    for (let i = 0; i < discoverNewArrivals.length; i++) {
         let product = document.createElement("div");
 
         let container = document.createElement("a");
         container.classList.add("discover-column");
-        container.href = `/specific-product.html?id=${news[i].id}`;
+        container.href = `/specific-product.html?id=${discoverNewArrivals[i].id}`;
 
         let image = document.createElement("img");
-        image.src = news[i].image;
-        image.alt = news[i].title;
+        image.src = discoverNewArrivals[i].image;
+        image.alt = discoverNewArrivals[i].title;
 
         let title = document.createElement("h3");
-        title.innerHTML = news[i].title;
+        title.innerHTML = discoverNewArrivals[i].title;
 
         let price = document.createElement("p");
-        price.innerHTML = "$ " + news[i].price;
+        price.innerHTML = "$ " + discoverNewArrivals[i].price;
 
         const button = document.createElement ("button");
         button.innerText = "shop now";
