@@ -8,7 +8,7 @@ export function renderNewArrivals (discoverNewArrivals) {
 
         let container = document.createElement("a");
         container.classList.add("discover-column");
-        container.href = `/product.html?id=${discoverNewArrivals[i].id}`;
+        container.href = `/product?id=${discoverNewArrivals[i].id}`;
 
         let image = document.createElement("img");
         image.src = discoverNewArrivals[i].image;
