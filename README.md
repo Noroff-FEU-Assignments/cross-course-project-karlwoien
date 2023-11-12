@@ -14,4 +14,5 @@ The site, built with HTML and CSS, can be viewed live at: https://rainydays-kew.
 # CA - Javasript 1
 
 Update as of novemer 12th 2023: 
+
 As CA in the Course Javascript 1 we where to modify our existing Cross-Course Project to fetch products form an external API. The hardcoded data regaring product list, product detail page and new arrivals on the home page (coded in the course HTML & CSS) is now removed and have been modified to fetch data dynamically from the API. The site now also include a loading indicator while fetching data and error handling has been implemented.
