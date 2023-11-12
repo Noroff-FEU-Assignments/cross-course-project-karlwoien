@@ -1,6 +1,6 @@
 export function renderProduct (productData) {
     const productElement = document.createElement ("a");
-    productElement.href = "/specific-product.html?id=" + productData.id;
+    productElement.href = "/product.html?id=" + productData.id;
     
     const img = document.createElement ("img");
     img.src = productData.image;
