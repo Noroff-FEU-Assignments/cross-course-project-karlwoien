@@ -160,7 +160,6 @@ footer {
 
 .discover-content {
     text-align: center;
-    text-transform: uppercase;
     padding-bottom: 100px;
 }
 
@@ -904,12 +903,19 @@ footer {
 
 .error {
     border: solid #C22525;
+    border-radius: 5px;
     padding-left: 20px;
     padding-right: 20px;
-
+    max-width: 800px;
+    color: #C22525;
 }
 
 .error-message {
-    font-size: 25px;
-    color: #C22525;
+    color: #000;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.error-message a{
+    text-decoration: underline;
 }

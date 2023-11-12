@@ -23,9 +23,8 @@ export function home () {
             }
         } catch (error) {
             const newArrivals = document.querySelector(".discover-row")
-            newArrivals.innerHTML = displayError ("Error! " + "Unable to access New Arrivals. Please try again later.");
+            newArrivals.innerHTML = displayError (`Due to a technical issue on our end we weren't abel to retrive the list of New Arrivals. Please try again. <br> If the issue keeps happening, please contact our <a href="/contact.html">Customer care.</a>`);
         }
-        
     }
     getNewArrivals()
     loader.classList.remove("loader")
