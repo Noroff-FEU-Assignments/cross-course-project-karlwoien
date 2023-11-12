@@ -42,7 +42,7 @@ export function renderSpecificProduct (productData) {
     const continueShopping = document.createElement("a");
     continueShopping.innerText = "continue shopping";
     continueShopping.classList.add("btn--white");
-    continueShopping.href = "/shop.html"
+    continueShopping.href = "/shop"
 
     productSizeRight.append (addToBag)
     productSizeLeft.append(sizeText, productSize)
