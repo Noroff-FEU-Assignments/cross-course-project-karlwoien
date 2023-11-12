@@ -1,7 +1,7 @@
 import { getProducts } from "../api/products.js";
 import { renderNewArrivals } from "../render/home.js";
 import { loader } from "../constants.js";
-import { displayError } from "../components/errorMessage.js";
+import { displayError } from "../components/error-message.js";
 
 export function home () {
     let products;
