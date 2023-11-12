@@ -54,7 +54,3 @@ export function renderSpecificProduct (productData) {
 
     document.querySelector(".specific-product").append(productElement);
 }
-
-//export function renderProductsSpecific (specificProduct) {
-//    specificProduct.forEach(renderProductSpecific)
-//}

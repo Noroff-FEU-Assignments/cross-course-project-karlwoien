@@ -6,7 +6,6 @@ if (location.pathname === "/shop.html") {
     shopProducts()
 }
 
-
 if (location.pathname === "/specific-product.html") { 
     specificProduct()
 }

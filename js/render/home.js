@@ -1,12 +1,7 @@
-
-
 export function renderNewArrivals (discoverNewArrivals) {
 
-    //Create container
     let newArrivals = document.createElement ("div");
     newArrivals.classList.add ("discover-row");
-
-    //discover new arrivals
 
     for (let i = 0; i < discoverNewArrivals.length; i++) {
         let product = document.createElement("div");
@@ -38,7 +33,5 @@ export function renderNewArrivals (discoverNewArrivals) {
         newArrivals.append(product)
 
     }
-  
-    
     return newArrivals.innerHTML;
 }

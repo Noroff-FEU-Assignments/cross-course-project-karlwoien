@@ -4,7 +4,6 @@ import { loader } from "../constants.js";
 import { displayError } from "../components/errorMessage.js";
 
 export function home () {
-    // fetch products for discover new arrivals
     let products;
     let discoverNewArrivals = [];
 
