@@ -1,7 +1,7 @@
 import { getProduct } from "../api/products.js";
-import { renderSpecificProduct } from "../render/specific-product.js";
+import { renderSpecificProduct } from "../render/specificproduct.js";
 import { loader } from "../constants.js";
-import { changeTitle } from "../components/change-title.js";
+import { changeTitle } from "../components/changetitle.js";
 
 let product;
 
