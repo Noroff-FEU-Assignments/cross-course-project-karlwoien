@@ -1,0 +1,33 @@
+/* Styling CTA, buttons etc */
+
+.btn--red {
+    border: 0;
+    padding: 15px 20px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #C22525;
+}
+
+.btn--red:hover {
+    background-color: #9b1e1e;
+}
+
+.btn--white {
+    border: solid 1px;
+    padding: 15px 20px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    border-radius: 5px;
+    border-color: #C22525;
+}
+
+.btn--white:hover {
+    color: #9b1e1e;
+}

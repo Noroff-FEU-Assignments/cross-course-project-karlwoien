@@ -1,0 +1,29 @@
+/* Styling about */
+
+.hero-about {
+    background-image: url(../images/about/hero-about.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 1080px;
+    background-repeat: no-repeat;
+}
+
+.hero-about-text {
+    padding-left: 20%;
+    padding-top: 10%;
+    max-width: 440px;
+}
+
+.hero-about h1{
+    color: #C22525;
+    font-size: 2.5rem;
+}
+
+.about-img-mobile {
+    display: none;
+}
+
+.p-bold-about {
+    font-weight: bold;
+    font-size: 1.4rem;
+}

@@ -1,0 +1,27 @@
+/* Styling footer */
+
+footer {
+    min-height: 250px;
+    padding-top: 50px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+} 
+
+.footer-nav ul{
+    list-style-type: none;
+    margin: 0; padding: 0;
+    color: #000;
+    font-size: 0.875rem;
+} 
+
+.footer-nav-some {
+    text-align: end;
+}
+
+.footer-some-icons {
+    height: 30px;
+}

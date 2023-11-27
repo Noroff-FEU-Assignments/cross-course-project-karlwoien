@@ -1,0 +1,51 @@
+/* Styling checkout */
+
+.grid-checkout { 
+    display: grid;
+    grid-template-columns: 1fr 0.8fr;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.summary-grid { 
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.summary-grid-right { 
+    text-align: center;
+}
+
+.summary-padding {
+    padding-top: 3rem; 
+}
+
+.product-img-bag { 
+    height: 100px;
+}
+
+.shipping-payment { 
+    max-width: 600px;
+    padding-top: 62px;
+    padding-left: 50px;
+}
+
+.shipping-payment input { 
+    width: 200px;
+    height: 30px;
+    margin: 10px 0px 10px 0px;
+}
+
+.payment-method { 
+    padding-top: 110px;
+}
+
+.payment-cta { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 50px;
+}
+
+.payment-cta-right { 
+    padding-top: 10px;
+}

@@ -1,0 +1,29 @@
+/* Styling checkout succsess */
+
+.checkout-success { 
+    padding-top: 30px;
+    margin: 0 30px;
+}
+
+.content-box { 
+    border: 1px solid #000;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+
+.img-success { 
+    padding-top: 100px;
+}
+
+.checkout-success h1{ 
+    color: #C22525;
+}
+
+.checkout-success p + p { 
+    padding-bottom: 50px;
+}
+
+.p-shipping { 
+    padding-top: 100px;
+}

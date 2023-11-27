@@ -1,0 +1,55 @@
+/* Loader, Error message , ++ */
+
+/* LOADER */
+.loader {
+    display: flex;
+    top: 0;
+    width: 100vw;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 1s, visivility 1s;
+}
+
+.loader-hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.loader::after {
+    content: "";
+    width: 60px;
+    height: 60px;
+    border: 10px solid #EFEDED;
+    border-top-color: #C22525;
+    border-radius: 50%;
+    animation: loading 0.5s linear infinite;
+}
+
+@keyframes loading {
+    to {
+        transform: rotate(1turn);
+    }
+  
+}
+
+/* Error message */
+
+.error {
+    border: solid #C22525;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 800px;
+    color: #C22525;
+}
+
+.error-message {
+    color: #000;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.error-message a{
+    text-decoration: underline;
+}
