@@ -5,7 +5,7 @@ export function renderSpecificProduct (productData) {
     const img = document.createElement ("img");
     img.src = productData.image;
     img.alt = productData.title;
-    img.classList.add("product-row", "img")
+    img.classList.add("large-view-picture")
 
     const productTitle = document.createElement("h1");
     productTitle.innerText = productData.title;
