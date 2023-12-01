@@ -1,10 +1,10 @@
 /* Media query */
 
 @media (max-width: 1200px) {
-    /* styling shop*/
+    /* styling shop
     .shop-grid-products {
     grid-template-columns: 1fr 1fr;
-    }
+    }*/
     /*styling specific product*/
     .product-information ul{ 
         padding-bottom: 10px;
