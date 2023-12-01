@@ -14,6 +14,8 @@ header {
     padding: 0px 0px;
 }
 
+/* hambuger menu */
+
 #menu-checkbox {
     display: none;
 }
@@ -36,6 +38,8 @@ nav a {
 nav a:hover{
     color: #C22525;
 }
+
+/* shopping bag */
 
 .shoppingbag-desktop {
     padding: 14px;
