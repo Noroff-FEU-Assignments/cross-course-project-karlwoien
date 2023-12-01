@@ -102,7 +102,7 @@
         width: 400px;
     }
     .large-view-picture{
-        max-width: 400px;
+        width: 400px;
     }
     .small-view {
         width: 400px;
@@ -245,7 +245,7 @@
         width: 350px;
     }
     .large-view-picture{
-        max-width: 350px;
+        width: 350px;
     }
     .small-view {
         width: 350px;
