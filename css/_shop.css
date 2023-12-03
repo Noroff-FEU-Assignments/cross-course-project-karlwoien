@@ -26,24 +26,11 @@
     transform: scale(1.08);
 }
 
-.product-card { 
-    padding-top: 40px;
-    width: 400px;
-    height: 500px;
-    text-transform: uppercase;
+.category-selected {  
+    color: #C22525;
 }
 
-.product-card:hover {  
-    border: 1px solid;
-    color: #000;
-}
-
-.background-design { 
-    height: 500px;
-    background-color: #EFEDED;
-}
-
-.selection-all {  
+.shop-selection a:hover {
     color: #C22525;
 }
 
