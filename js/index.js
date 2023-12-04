@@ -20,6 +20,6 @@ if (location.pathname === "/men.html" && "/men") {
     shopMen()
 }
 
-if (location.pathname === "/women.html" && "/women") { 
+if (location.pathname === "/women.html" || "/women") { 
     shopWomen()
 }
