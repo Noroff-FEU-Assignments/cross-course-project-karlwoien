@@ -235,16 +235,13 @@
     .contact-row {
     gap: 10px;
     }
-    /*.contact-column textarea {
+    .contact-column textarea {
         height: 150px;
-        width: 290px;
+        width: 345px;
     }
     .contact-column input {
-        width: 140px;
-    }*/
-    /*.submit-btn {
-        text-align: right;
-    }*/
+        width: 168px;
+    }
 
     /*styling specific product*/
     .product-pictures{
