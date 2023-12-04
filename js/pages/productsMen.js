@@ -7,14 +7,14 @@ export function shopMen() {
     let productData = [];
 
     async function getMensJackets () {
-
         try{
             products = await getProducts();
             for (let i = 0; i < products.length; i++) {
-                if (productData.length < products[i].gender === "Male") {
+                if (products[i].gender === "Male") {
                     productData.push(products[i]);
                 }
-            const menProducts = document.querySelector (".shop-grid-products");
+
+            const menProducts = document.querySelector(".shop-grid-products");
             menProducts.innerHTML = renderProductsMen(productData);
             }
     } catch (error) {

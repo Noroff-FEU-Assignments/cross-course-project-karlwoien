@@ -1,30 +1,30 @@
 export function renderProductsMen (productData) {
 
-    let menProducts = document.createElement ("a");
-    menProducts.classList.add = (".shop-grid-products");
+    let productsMen = document.createElement ("article");
+    productsMen.classList.add = (".shop-grid-products");
+    
 
-    for (let id = 0; id < productData.length; id++) {
+    for (let i = 0; i < productData.length; i++) {
        let product = document.createElement ("a");
-       product.href = "/product?id=" + productData.id;
+       product.href = `/product?id=${productData[i].id}`;
         
-        let img = document.createElement ("img");
-        img.src = productData.image;
-        img.alt = productData.title;
-        product.append(img);
+        let image = document.createElement ("img");
+        image.src = productData[i].image;
+        image.alt = productData[i].title;
+        
     
         let productTitle = document.createElement("h3");
-        productTitle.innerText = productData.title;
-        product.append(productTitle);
+        productTitle.innerHTML = productData[i].title;
+        
     
         let productPrice = document.createElement("p");
-        productPrice.innerText = "$ " + productData.price;
-        product.append(productPrice);
+        productPrice.innerHTML = "$ " + productData[i].price;
+        productPrice.classList.add = (".p-bold");
         
-       // document.querySelector(".shop-grid-products").append(productsMen);
-    }  
-    return menProducts.innerHTML;
- }
+        
+       product.append (image, productTitle, productPrice);
 
-//export function renderProductsMen (listOfProducts) {
-//    listOfProducts.forEach(renderProductMen)
-//}
+       productsMen.append (product);
+    }  
+    return productsMen.innerHTML;
+ }
