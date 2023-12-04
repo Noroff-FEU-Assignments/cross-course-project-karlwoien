@@ -237,10 +237,13 @@
     }
     .contact-column textarea {
         height: 150px;
-        width: 345px;
+        width: 348px;
     }
     .contact-column input {
         width: 168px;
+    }
+    .submit-btn {
+        margin-right: 10px;
     }
 
     /*styling specific product*/
