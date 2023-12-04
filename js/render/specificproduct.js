@@ -41,7 +41,7 @@ export function renderSpecificProduct (productData) {
     addToBag.classList.add("btn--red");
     addToBag.href = "/checkout.html";
 
-    const continueShopping = document.createElement("a");
+    const continueShopping = document.createElement("button");
     continueShopping.innerText = "continue shopping";
     continueShopping.classList.add("btn--white");
     continueShopping.href = "/shop"
