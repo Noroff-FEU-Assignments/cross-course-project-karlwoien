@@ -1,5 +1,5 @@
 import { home } from "/js/pages/home.js";
-import { specificProduct } from "./pages/specificproduct.js";
+import { specificProduct } from "./pages/specificProduct.js";
 import { shopProducts } from "./pages/products.js";
 import { shopMen } from "./pages/productsMen.js";
 import { shopWomen } from "./pages/productsWomen.js";
@@ -12,7 +12,7 @@ if (location.pathname === "/product") {
     specificProduct()
 }
 
-if (location.pathname === "/index") { 
+if (location.pathname === "/") { 
     home()
 }
 
