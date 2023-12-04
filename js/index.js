@@ -16,10 +16,10 @@ if (location.pathname === "/index.html") {
     home()
 }
 
-if (location.pathname === "/men.html") { 
+if (location.pathname === "/men.html" && "/men") { 
     shopMen()
 }
 
-if (location.pathname === "/women.html") { 
+if (location.pathname === "/women.html" && "/women") { 
     shopWomen()
 }
