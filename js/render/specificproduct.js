@@ -16,6 +16,7 @@ export function renderSpecificProduct (productData) {
 
     const productDescription = document.createElement ("p");
     productDescription.innerHTML = productData.description;
+    productDescription.classList.add = "p"
 
     const textHr = document.createElement("hr");
 
