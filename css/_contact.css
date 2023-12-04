@@ -25,15 +25,19 @@
     max-height: 700px;
 }
 
-.contact-picture-mobile img {
+/*.contact-picture-mobile img {
     display: none;
-    }
+    } */
 
 .telephone-mail {
     display: flex;
     align-items: center;
     gap: 20px;
-    padding-bottom: 20px;
+}
+
+.contact-form {
+    padding-top: 20px;
+    resize: none;
 }
 
 .contact-column input {
