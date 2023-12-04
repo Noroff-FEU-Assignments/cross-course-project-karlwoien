@@ -36,12 +36,12 @@ export function renderSpecificProduct (productData) {
     productSize.classList.add("product-size-selection", "product-size-selection:hover")
 
     const addToBag = document.createElement("a");
-    addToBag.innerText = "add to bag";
+    addToBag.innerHTML = "add to bag";
     addToBag.classList.add("btn--red");
     addToBag.href = "/checkout.html";
 
-    const continueShopping = document.createElement("button");
-    continueShopping.innerText = "continue shopping";
+    const continueShopping = document.createElement("a");
+    continueShopping.innerHTML = "continue shopping";
     continueShopping.classList.add("btn--white");
     continueShopping.href = "/shop"
 
