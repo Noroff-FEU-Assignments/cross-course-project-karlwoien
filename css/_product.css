@@ -59,6 +59,7 @@
 .product-information p{ 
     max-width: 400px;
     font-weight: normal;
+    text-transform: none;
 }
 
 .product-information { 
