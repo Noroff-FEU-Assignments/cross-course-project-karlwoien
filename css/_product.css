@@ -84,6 +84,7 @@
     text-align: start;
     display: flex;
     gap: 10px;
+    height: 30px;
 }
 
 .product-size-right { 
@@ -94,7 +95,6 @@
     border: 1px solid transparent;
     width: 30px;
     height: 30px;
-    top: 20px;
     text-align: center;
     font-weight: normal;
     font-size: 1.125rem;
