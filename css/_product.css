@@ -99,3 +99,7 @@
 .product-size-selection:hover { 
     border: 1px solid;
 }
+
+.product-size-active { 
+    border: 1px solid;
+}

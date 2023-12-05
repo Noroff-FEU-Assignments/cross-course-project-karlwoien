@@ -2,6 +2,7 @@ import { getProduct } from "../api/products.js";
 import { renderSpecificProduct } from "../render/specificproduct.js";
 import { loader } from "../constants.js";
 import { changeTitle } from "../components/changeTitle.js";
+import { sizeSelection } from "../components/sizeSelection.js";
 
 let product;
 
@@ -17,6 +18,7 @@ export async function specificProduct() {
         .replace ("Rainy Days ", "")
         .replace ("Product", "")} | Rainy Days`
     );
+    sizeSelection();
     loader.classList.remove("loader");
   }
   catch (error) {
