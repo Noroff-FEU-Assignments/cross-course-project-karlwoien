@@ -76,12 +76,12 @@
 .product-size { 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    line-height: 30px;
     padding-bottom: 80px;
 }
 
 .product-size-left { 
     display: flex;
+    align-items: center;
     text-align: center;
 }
 
@@ -104,6 +104,11 @@
 }
 
 .product-size-selection-active { 
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.product-size-selection-active:active { 
     border: 1px solid;
     cursor: pointer;
 }
