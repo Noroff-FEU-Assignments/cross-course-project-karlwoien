@@ -35,7 +35,6 @@ export function renderSpecificProduct (productData) {
         const productSize = document.createElement("div")
         productSize.innerHTML = productData.sizes[i];
         productSize.classList.add("product-size-selection", "product-size-selection:hover")
-        productSize.appendChild(productSize);
     }
 
 
