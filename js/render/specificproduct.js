@@ -31,10 +31,12 @@ export function renderSpecificProduct (productData) {
     const sizeText = document.createElement("p")
     sizeText.innerHTML = "Size: ";
    
+    const productSizes = document.createElement ("div")
     for (let i = 0; i < productData.sizes.lenght; i++) {
         const productSize = document.createElement("div")
         productSize.innerHTML = productData.sizes[i];
         productSize.classList.add("product-size-selection", "product-size-selection:hover")
+        productSizes.appendChild(productSize);
     }
 
 
@@ -49,7 +51,7 @@ export function renderSpecificProduct (productData) {
     continueShopping.href = "/shop"
 
     productSizeRight.append (addToBag)
-    productSizeLeft.append(sizeText, productSize)
+    productSizeLeft.append(sizeText, productSizes)
     productSizeContainer.append(productSizeLeft, productSizeRight)
 
     productTitle.append(productPrice, productDescription, textHr, productSizeContainer, continueShopping);
