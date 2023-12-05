@@ -12,7 +12,6 @@ export async function specificProduct() {
     const id = url.searchParams.get("id");
 
     const product = await getProduct(id);
-    sizeSelection();
     renderSpecificProduct(product);
     changeTitle (
       `${product.title
@@ -20,6 +19,7 @@ export async function specificProduct() {
         .replace ("Product", "")} | Rainy Days`
     );
     loader.classList.remove("loader");
+    sizeSelection();
   }
   catch (error) {
     alert(error);
