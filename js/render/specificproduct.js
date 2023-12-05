@@ -32,13 +32,13 @@ export function renderSpecificProduct (productData) {
     sizeText.innerHTML = "Size: ";
    
     const productSizes = document.createElement ("div");
-    productSizes.classList.add("product-size-left");
+    productSizes.classList.add("product-size-left", "product-size-selection-active");
     productSizes.ariaLabel = "Sizes";
 
     for (let i = 0; i < productData.sizes.length; i++) {
         const productSize = document.createElement("div")
         productSize.innerHTML = productData.sizes[i];
-        productSize.classList.add("product-size-selection", "product-size-selection:hover", "product-size-selection-active")
+        productSize.classList.add("product-size-selection", "product-size-selection:hover")
         productSizes.appendChild(productSize);
     }
 
