@@ -12,8 +12,8 @@ export async function specificProduct() {
     const id = url.searchParams.get("id");
 
     const product = await getProduct(id);
-    renderSpecificProduct(product);
     sizeSelection();
+    renderSpecificProduct(product);
     changeTitle (
       `${product.title
         .replace ("Rainy Days ", "")
