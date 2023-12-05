@@ -1,5 +1,5 @@
 export function sizeSelection () {
-    const sizes = document.querySelectorAll ("product-size-left", "product-size-selection");
+    const sizes = document.querySelectorAll (`[aria-label="Sizes] .product-size-selection`);
 
     sizes.forEach ((size) => {
         size.addEventListener ("click", function(){

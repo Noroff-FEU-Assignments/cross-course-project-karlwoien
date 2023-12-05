@@ -42,7 +42,7 @@ export function renderSpecificProduct (productData) {
         productSizes.appendChild(productSize);
     }
 
-    productSizes.children[1].classList.add ("product-size-selection-active");
+    productSizes.children[3].classList.add ("product-size-selection-active");
 
 
     const addToBag = document.createElement("a");
