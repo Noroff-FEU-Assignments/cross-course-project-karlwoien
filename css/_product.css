@@ -76,15 +76,13 @@
 .product-size { 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    align-items: baseline;
+    line-height: 30px;
     padding-bottom: 80px;
 }
 
 .product-size-left { 
-    text-align: start;
     display: flex;
     text-align: center;
-    justify-content: center;
     gap: 10px;
 }
 
