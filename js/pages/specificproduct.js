@@ -19,7 +19,6 @@ export async function specificProduct() {
         .replace ("Product", "")} | Rainy Days`
     );
     loader.classList.remove("loader");
-    sizeSelection();
   }
   catch (error) {
     alert(error);
