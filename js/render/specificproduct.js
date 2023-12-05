@@ -35,6 +35,7 @@ export function renderSpecificProduct (productData) {
     productSize.classList.add("product-size-selection", "product-size-selection:hover")
     for (let i = 0; i < productData.sizes.lenght; i++) {
         productSize.innerHTML = productData.sizes[i];
+        productSize.appendChild (productSize);
     }
 
 
