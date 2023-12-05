@@ -1,5 +1,5 @@
 export function sizeSelection () {
-    const sizes = document.querySelector ("product-size-selection");
+    const sizes = document.querySelectorAll ("product-size-selection");
 
     sizes.forEach ((size) => {
         size.addEventListener ("click", function(){
