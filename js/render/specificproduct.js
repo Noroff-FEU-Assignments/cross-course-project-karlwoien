@@ -29,7 +29,7 @@ export function renderSpecificProduct (productData) {
     productSizeRight.classList.add("product-size-right");
 
     const sizeText = document.createElement("p");
-    sizeText.innerHTML = "Size: ";
+    sizeText.innerHTML = "Size:  ";
    
     const productSizes = document.createElement ("div");
     productSizes.classList.add("product-size-left");
@@ -42,7 +42,7 @@ export function renderSpecificProduct (productData) {
         productSizes.appendChild(productSize);
     }
 
-    productSizes.children[2].classList.add ("product-size-selection-active");
+    productSizes.children[1].classList.add ("product-size-selection-active");
 
 
     const addToBag = document.createElement("a");
