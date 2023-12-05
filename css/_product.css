@@ -83,7 +83,7 @@
 .product-size-left { 
     text-align: start;
     display: flex;
-    gap: 20px;
+    gap: 10px;
 }
 
 .product-size-right { 
@@ -92,17 +92,19 @@
 
 .product-size-selection { 
     border: 1px solid transparent;
-    width: 40px;
+    width: 30px;
+    height: 30px;
     text-align: center;
     font-weight: normal;
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     align-items: baseline;
+    font-family: 'Hind Siliguri', sans-serif;
 }
 
 .product-size-selection:hover { 
     border: 1px solid;
 }
 
-.product-size-selection-active { 
+.product-size-selection:active { 
     border: 1px solid;
 }
