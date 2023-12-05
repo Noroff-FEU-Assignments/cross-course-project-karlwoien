@@ -104,8 +104,10 @@
 
 .product-size-selection:hover { 
     border: 1px solid;
+    cursor: pointer;
 }
 
 .product-size-selection-active { 
     border: 1px solid;
+    cursor: pointer;
 }
