@@ -28,11 +28,14 @@ export function renderSpecificProduct (productData) {
     const productSizeRight = document.createElement ("div");
     productSizeRight.classList.add("product-size-right");
 
-    const sizeText = document.createElement("p")
+    const sizeText = document.createElement("p");
     sizeText.innerHTML = "Size: ";
    
-    const productSizes = document.createElement ("div")
-    for (let i = 0; i < productData.sizes.lenght; i++) {
+    const productSizes = document.createElement ("div");
+    productSizes.classList.add("product-size-left");
+    productSizes.ariaLabel = "Sizes";
+
+    for (let i = 0; i < productData.sizes.length; i++) {
         const productSize = document.createElement("div")
         productSize.innerHTML = productData.sizes[i];
         productSize.classList.add("product-size-selection", "product-size-selection:hover")
