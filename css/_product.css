@@ -83,7 +83,8 @@
 .product-size-left { 
     text-align: start;
     display: flex;
-    flex-direction: row;
+    text-align: center;
+    justify-content: center;
     gap: 10px;
 }
 
@@ -96,8 +97,6 @@
     border: 1px solid transparent;
     width: 30px;
     height: 30px;
-    text-align: center;
-    justify-content: center;
     font-weight: normal;
     font-size: 1.125rem;
     font-family: 'Hind Siliguri', sans-serif;
