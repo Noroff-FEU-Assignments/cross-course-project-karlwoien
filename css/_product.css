@@ -83,6 +83,7 @@
     display: flex;
     align-items: center;
     text-align: center;
+    gap: 5px;
 }
 
 .product-size-right { 
@@ -104,11 +105,6 @@
 }
 
 .product-size-selection-active { 
-    border: 1px solid;
-    cursor: pointer;
-}
-
-.product-size-selection-active:active { 
     border: 1px solid;
     cursor: pointer;
 }
