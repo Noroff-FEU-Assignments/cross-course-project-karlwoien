@@ -31,9 +31,12 @@ export function renderSpecificProduct (productData) {
     const sizeText = document.createElement("p")
     sizeText.innerHTML = "Size: ";
 
-    let productSize = document.createElement("p")
-    productSize.innerHTML = productData.sizes;
+    const productSize = document.createElement("div")
     productSize.classList.add("product-size-selection", "product-size-selection:hover")
+    for (let i = 0; i < productData.sizes.lenght; i++) {
+        productSize.innerHTML = productData.sizes[i];
+    }
+
 
     const addToBag = document.createElement("a");
     addToBag.innerHTML = "add to bag";
