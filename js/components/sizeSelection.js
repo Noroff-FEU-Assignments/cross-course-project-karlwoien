@@ -1,8 +1,8 @@
-export function sizeSelection () {
+export function selectSize () {
     const sizes = document.querySelectorAll ("product-size-selection");
 
     sizes.forEach ((size) => {
-        size.addEventListener ("click", function(){
+        size.addEventListener ("onClick", function(){
             sizes.forEach ((otherSize) => {
                 otherSize.classList.remove ("product-size-selection-active");
             });
