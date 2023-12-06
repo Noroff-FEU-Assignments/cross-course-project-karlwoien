@@ -4,16 +4,17 @@
 
 .modal {
     display: none;
-    position: relative;
-    padding-top: 40px;
-    top: 0;
-    width: 50%;
+    position: fixed;
+    width: 80%;
     margin: auto;
+    top: 30%;
+    left: 10%;
 }
 
 .modal-content {
     position:relative;
     background-color: #fff;
+    border: 1px solid #C22525;
     border-radius: 5px;
     padding: 20px;
     padding-bottom: 40px;
