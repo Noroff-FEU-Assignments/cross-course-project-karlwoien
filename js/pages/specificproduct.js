@@ -13,7 +13,7 @@ export async function specificProduct() {
 
     const product = await getProduct(id);
     renderSpecificProduct(product);
-   selectSize();
+    selectSize();
     changeTitle (
       `${product.title
         .replace ("Rainy Days ", "")
