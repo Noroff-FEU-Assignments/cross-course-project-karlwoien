@@ -121,6 +121,11 @@
         height: 140px;
         width: 120px;
     }
+
+    /*styling modal message box*/
+    .modal {
+        width: 90%;
+    }
 }
 
 @media (max-width: 460px) {

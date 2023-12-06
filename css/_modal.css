@@ -1,0 +1,46 @@
+/* Inspired by: https://medium.com/@nerdplusdog/a-how-to-guide-for-modal-boxes-with-javascript-html-and-css-6a49d063987e*/
+
+/* styling of Modal/Dialog Box that will show when user click a submit button */
+
+.modal {
+    display: none;
+    position: relative;
+    padding-top: 40px;
+    top: 0;
+    width: 50%;
+    margin: auto;
+}
+
+.modal-content {
+    position:relative;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    padding-bottom: 40px;
+    -webkit-animation-name: animate-top;
+    -webkit-animation-duration: 1s;
+    animation-name: animate-top;
+    animation-duration: 1s;
+}
+
+.close-modal-btn {
+    float: right;
+    color: #C22525;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-modal-btn:hover{
+    color: #000;
+}
+
+@-webkit-keyframes animate-top {
+    from {top:300px; opacity:0;}
+    to {top:0; opacity: 1;}
+}
+
+@keyframes animate-top {
+    from {top:300px; opacity:0;}
+    to {top:0; opacity: 1;}
+}

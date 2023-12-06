@@ -2,6 +2,7 @@ import { getProducts } from "../api/products.js";
 import { renderNewArrivals } from "../render/home.js";
 import { loader } from "../constants.js";
 import { displayError } from "../components/errormessage.js";
+import { renderModal } from "../components/messageBox.js";
 
 export function home () {
     let products;
@@ -27,4 +28,5 @@ export function home () {
     }
     getNewArrivals()
     loader.classList.remove("loader")
+    renderModal ()
 }

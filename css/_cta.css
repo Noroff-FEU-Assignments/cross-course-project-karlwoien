@@ -10,6 +10,7 @@
     color: #fff;
     border-radius: 5px;
     background-color: #C22525;
+    cursor: pointer;
 }
 
 .btn--red:hover {
