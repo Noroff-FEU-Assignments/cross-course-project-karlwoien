@@ -301,4 +301,7 @@
     .p-shipping { 
         padding-top: 50px;
     }
+    .payment-cta-right { 
+        padding-left: 10px;
+    }
 }
