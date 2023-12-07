@@ -45,7 +45,8 @@
 }
 
 .product-information { 
-    max-width: 600px;
+    max-width: 500px;
+    color: #000;
 }
 
 .product-information h1{ 
@@ -57,13 +58,9 @@
 }
 
 .product-information p{ 
-    max-width: 400px;
+    max-width: 500px;
     font-weight: normal;
     text-transform: none;
-}
-
-.product-information { 
-    color: #000;
 }
 
 .product-information ul{ 
@@ -99,12 +96,8 @@
     font-family: 'Hind Siliguri', sans-serif;
 }
 
-.product-size-selection:hover {
-    border: 1px solid;
-    cursor: pointer;
-}
-
-.product-size-selection-active { 
+.product-size-selection:hover,
+.product-size-selection-active {
     border: 1px solid;
     cursor: pointer;
 }
