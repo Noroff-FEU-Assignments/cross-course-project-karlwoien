@@ -181,6 +181,9 @@
     .newsletter-field {
     width: 150px;
     }
+    .modal-content {
+        margin-top: 30%;
+    }
 
     /*styling shop*/
     .shop-selection h2 {
@@ -272,6 +275,7 @@
     }
     .product-size-right { 
         padding-bottom: 20px;
+        text-align: start;
     }
 
     /*styling checkout*/
