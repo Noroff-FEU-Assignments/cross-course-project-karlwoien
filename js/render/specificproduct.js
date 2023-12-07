@@ -22,11 +22,9 @@ export function renderSpecificProduct (productData) {
     productDetails.classList.add("p-bold");
 
     const productBullets = document.createElement ("li");
-    productBullets.innerHTML = "Highly breathable" + "100% Polyester" + "Waterproof"
-    
-    //`<li>Waterproof</li>
-    //                            <li>Highly breathable</li>
-    //                            <li>100% Polyester</li>`;
+    productBullets.innerHTML = `<li>Waterproof</li>
+                                <li>Highly breathable</li>
+                                <li>100% Polyester</li>`;
     productBullets.classList.add("product-information");
 
     //const productBulletsList = document.createElement ("li")
