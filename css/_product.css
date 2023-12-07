@@ -104,6 +104,7 @@
     cursor: pointer;
 }
 
-.product-details {
+.product-details-bullets {
     margin-bottom: 0;
+    font-weight: bold;
 }
