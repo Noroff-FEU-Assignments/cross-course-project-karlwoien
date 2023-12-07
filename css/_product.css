@@ -84,7 +84,8 @@
 }
 
 .product-size-right { 
-    text-align: end;
+    text-align: start;
+    padding-left: 5px;
 }
 
 .product-size-selection { 
