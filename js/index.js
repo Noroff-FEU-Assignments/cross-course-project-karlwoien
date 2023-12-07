@@ -3,23 +3,28 @@ import { specificProduct } from "./pages/specificProduct.js";
 import { shopProducts } from "./pages/products.js";
 import { shopMen } from "./pages/productsMen.js";
 import { shopWomen } from "./pages/productsWomen.js";
+import { renderModal } from "./components/messageBox.js";
 
 if (location.pathname === "/shop") {
-    shopProducts()
+    shopProducts();
 }
 
 if (location.pathname === "/product") { 
-    specificProduct()
+    specificProduct();
 }
 
-if (location.pathname === "/") { 
-    home()
+if (location.pathname === "/index") { 
+    home();
 }
 
 if (location.pathname === "/men") { 
-    shopMen()
+    shopMen();
 }
 
 if (location.pathname === "/women") { 
-    shopWomen()
+    shopWomen();
+}
+
+if (location.pathname === "/contact") {
+    renderModal();
 }

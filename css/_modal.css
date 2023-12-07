@@ -22,6 +22,7 @@
     max-width: 500px;
     margin: auto;
     margin-top: 15%;
+    text-align: center;
     -webkit-animation-name: animate-top;
     -webkit-animation-duration: 1s;
     animation-name: animate-top;
