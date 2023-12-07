@@ -16,12 +16,16 @@ export function renderSpecificProduct (productData) {
 
     const productDescription = document.createElement ("p");
     productDescription.innerHTML = productData.description;
-    productDescription.innerHTML = `<p class="p-bold">Details </p>`
+
+    const productDetails = document.createElement("p");
+    productDetails.innerHTML = "Details";
+    productDetails.classList.add("p-bold");
 
     const productBullets = document.createElement ("ul");
     productBullets.innerHTML = `<li>Waterproof</li>
                                 <li>Highly breathable</li>
-                                <li>100% Polyester</li>`
+                                <li>100% Polyester</li>`;
+    productBullets.classList.add("product-information");
 
     //const productBulletsList = document.createElement ("li")
     //productBulletsList.innerHTML = 
@@ -65,7 +69,7 @@ export function renderSpecificProduct (productData) {
     productSizeLeft.append(sizeText, productSizes)
     productSizeContainer.append(productSizeLeft, productSizeRight)
 
-    productTitle.append(productPrice, productDescription, productBullets, textHr, productSizeContainer, continueShopping);
+    productTitle.append(productPrice, productDescription,productDetails, productBullets, textHr, productSizeContainer, continueShopping);
 
     productElement.append(img, productTitle);
 
