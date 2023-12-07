@@ -18,7 +18,7 @@ export function renderSpecificProduct (productData) {
     productDescription.innerHTML = productData.description;
 
     const productDetails = document.createElement("p");
-    productDetails.innerHTML = "Details";
+    productDetails.innerHTML = "Details:";
     productDetails.classList.add("p-bold");
 
     const productBullets = document.createElement ("ul");
