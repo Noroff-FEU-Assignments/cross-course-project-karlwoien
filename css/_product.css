@@ -10,8 +10,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px;
+    justify-content: space-evenly;
+    gap: 20px;
 }
 
 .product-row img{ 
@@ -58,7 +58,6 @@
 }
 
 .product-information p{ 
-    max-width: 400px;
     font-weight: normal;
     text-transform: none;
 }
@@ -103,4 +102,8 @@
 .product-size-selection-active {
     border: 1px solid;
     cursor: pointer;
+}
+
+.product-details {
+    margin-bottom: 0;
 }
