@@ -49,3 +49,20 @@
 .payment-cta-right { 
     padding-top: 10px;
 }
+.payment-cta-left { 
+    display: flex;
+    gap: 10px;
+}
+
+
+.payment-method-choice:hover{
+    border: 1px solid;
+    height: 40px;
+    cursor: pointer;
+}
+
+.payment-method-choice-active{
+    border: 1px solid;
+    height: 40px;
+    cursor: pointer;
+}
