@@ -266,6 +266,10 @@
     .product-size-left { 
         gap: 5px;
     }
+    .product-size { 
+        grid-template-columns: 1fr;
+        padding-bottom: 80px;
+    }
 
     /*styling checkout*/
     .grid-checkout { 

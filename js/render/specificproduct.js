@@ -16,10 +16,10 @@ export function renderSpecificProduct (productData) {
 
     const productDescription = document.createElement ("p");
     productDescription.innerHTML = productData.description;
+    productDescription.innerHTML = `<p class="p-bold">Details </p>`
 
     const productBullets = document.createElement ("ul");
-    productBullets.innerHTML = `<p class="bold">Details</p>
-                                <li>Waterproof</li>
+    productBullets.innerHTML = `<li>Waterproof</li>
                                 <li>Highly breathable</li>
                                 <li>100% Polyester</li>`
 
