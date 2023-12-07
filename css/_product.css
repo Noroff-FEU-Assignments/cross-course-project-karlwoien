@@ -68,6 +68,7 @@
     font-family: 'Hind Siliguri', sans-serif;;
     color: #000;
     padding-bottom: 20px;
+    font-weight: normal;
 }
 
 .product-size { 
@@ -84,7 +85,7 @@
 }
 
 .product-size-right { 
-    text-align: start;
+    text-align: end;
     padding-left: 10px;
 }
 
