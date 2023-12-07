@@ -17,6 +17,14 @@ export function renderSpecificProduct (productData) {
     const productDescription = document.createElement ("p");
     productDescription.innerHTML = productData.description;
 
+    const productBullets = document.createElement ("ul");
+    productBullets.innerHTML = `<li>Waterproof</li>
+                                <li>Highly breathable</li>
+                                <li>100% Polyester</li>`
+
+    //const productBulletsList = document.createElement ("li")
+    //productBulletsList.innerHTML = 
+
     const textHr = document.createElement("hr");
 
     const productSizeContainer = document.createElement("div");
@@ -56,7 +64,7 @@ export function renderSpecificProduct (productData) {
     productSizeLeft.append(sizeText, productSizes)
     productSizeContainer.append(productSizeLeft, productSizeRight)
 
-    productTitle.append(productPrice, productDescription, textHr, productSizeContainer, continueShopping);
+    productTitle.append(productPrice, productDescription, productBullets, textHr, productSizeContainer, continueShopping);
 
     productElement.append(img, productTitle);
 
