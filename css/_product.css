@@ -62,6 +62,11 @@
     text-transform: none;
 }
 
+.product-information .p-bold{ 
+    font-weight: normal;
+    text-transform: none;
+}
+
 .product-information ul{ 
     font-size: 1.125rem;
     font-family: 'Hind Siliguri', sans-serif;;
@@ -86,7 +91,6 @@
 
 .product-size-right { 
     text-align: end;
-    padding-left: 10px;
 }
 
 .product-size-selection { 
@@ -102,9 +106,4 @@
 .product-size-selection-active {
     border: 1px solid;
     cursor: pointer;
-}
-
-.product-details-bullets {
-    margin-bottom: 0;
-    font-weight: bold;
 }

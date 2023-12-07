@@ -19,7 +19,7 @@ export function renderSpecificProduct (productData) {
 
     const productDetails = document.createElement("p");
     productDetails.innerHTML = "Details:";
-    productDetails.classList.add("product-details-bullets")
+    productDetails.classList.add("p-bold")
 
     const productBullets = document.createElement ("ul");
     productBullets.innerHTML = `<li>Waterproof</li>
