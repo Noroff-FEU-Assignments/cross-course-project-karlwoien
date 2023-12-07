@@ -13,7 +13,7 @@ if (location.pathname === "/product") {
     specificProduct();
 }
 
-if (location.pathname === "/index") { 
+if (location.pathname === "/") { 
     home();
 }
 
