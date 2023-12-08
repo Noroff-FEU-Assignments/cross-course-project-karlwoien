@@ -10,10 +10,12 @@
 .summary-grid { 
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    justify-items: start;
 }
 
 .summary-grid-right { 
-    text-align: center;
+    align-items: center;
 }
 
 .summary-padding {
@@ -65,4 +67,8 @@
     border: 1px solid;
     height: 40px;
     cursor: pointer;
+}
+
+.summary-grid-right-select {
+text-align: center;
 }
