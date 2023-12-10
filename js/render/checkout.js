@@ -1,4 +1,4 @@
-//started on rendring checkout - must be updated//
+/* started on rendring checkout - must be updated and finished. Checkout still static now.
 
 function renderCheckoutSummary (cart) {
 
@@ -34,4 +34,4 @@ function renderCheckoutSummary (cart) {
 
     }
     return newArrivals.innerHTML;
-}
+}*/
