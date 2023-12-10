@@ -1,4 +1,6 @@
-export function selectPaymentMethod () {
+
+/* function not implemented yet - need to be added when cart is rendered with JS. still static at this point
+function selectPaymentMethod () {
     const paymentMethod = document.querySelectorAll (`.payment-method-choice`);
 
     paymentMethod.forEach ((method) => {
@@ -9,4 +11,4 @@ export function selectPaymentMethod () {
             this.classList.add ("payment-method-choice-active");
         })
     })
-}
+}*/
