@@ -16,7 +16,7 @@ export async function specificProduct() {
     selectSize();
     changeTitle (
       `${product.title
-        .replace ("Rainy Days ", "")
+        //.replace ("Rainy Days ", "")
         .replace ("Product", "")} | Rainy Days`
     );
     loader.classList.remove("loader");
