@@ -1,3 +1,3 @@
-export function changeTitle (title) {
-    document.name = title;
+export function changeTitle (name) {
+    document.title = name;
 }
