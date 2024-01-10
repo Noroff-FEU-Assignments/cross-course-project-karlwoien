@@ -14,11 +14,6 @@ export async function specificProduct() {
     const product = await getProduct(id);
     renderSpecificProduct(product);
     selectSize();
-    changeTitle (
-      `${product.title
-        //.replace ("Rainy Days ", "")
-        .replace ("Product", "")} | Rainy Days`
-    );
     loader.classList.remove("loader");
   }
   catch (error) {
