@@ -14,7 +14,7 @@ export function home () {
             products = await getProducts ();
 
             for (let i = 0; i < products.length; i++) {
-                if (discoverNewArrivals.length < 3 && products[i].onSale === false) {
+                if (discoverNewArrivals.length < 3 && products[i].on_sale === false) {
                     discoverNewArrivals.push(products[i]);
                 }
         
