@@ -10,7 +10,7 @@ export function shopMen() {
         try{
             products = await getProducts();
             for (let i = 0; i < products.length; i++) {
-                if (products[i].gender === "Male") {
+                if (products[i].attributes[0].terms[0].name === "Male") {
                     productData.push(products[i]);
                 }
 
