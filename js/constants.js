@@ -1,5 +1,5 @@
-export const host = "https://api.noroff.dev/api/v1";
-export const endpoint = "/rainy-days/";
+export const host = "https://www.karlwoien.com/wp-json";
+export const endpoint = "/wc/store/products/";
 export const apiUrl = host + endpoint;
 
 export const loader = document.querySelector(".loader");

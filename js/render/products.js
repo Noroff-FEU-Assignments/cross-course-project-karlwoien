@@ -3,16 +3,16 @@ export function renderProduct (productData) {
     productElement.href = "/product?id=" + productData.id;
     
     const img = document.createElement ("img");
-    img.src = productData.image;
-    img.alt = productData.title;
+    img.src = productData.images[0].src;
+    img.alt = productData.name;
     productElement.append(img);
 
     const productTitle = document.createElement("h3");
-    productTitle.innerText = productData.title;
+    productTitle.innerText = productData.name;
     productElement.append(productTitle);
 
     const productPrice = document.createElement("p");
-    productPrice.innerText = "$ " + productData.price;
+    productPrice.innerText = "$ " + productData.prices.price/100;
     productElement.append(productPrice);
     
     document.querySelector(".shop-grid-products").append(productElement);
