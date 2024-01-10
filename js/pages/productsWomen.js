@@ -10,7 +10,7 @@ export function shopWomen() {
         try{
             products = await getProducts();
             for (let i = 0; i < products.length; i++) {
-                if (products[i].gender === "Female") {
+                if (products[i].attributes[0].terms[0].name === "Female") {
                     productData.push(products[i]);
                 }
             const womenProducts = document.querySelector(".shop-grid-products");
