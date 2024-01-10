@@ -3,16 +3,16 @@ export function renderSpecificProduct (productData) {
     productElement.classList.add("product-row")
 
     const img = document.createElement ("img");
-    img.src = productData.image;
-    img.alt = productData.title;
+    img.src = productData.images[0].src;
+    img.alt = productData.name;
     img.classList.add("large-view-picture")
 
     const productTitle = document.createElement("h1");
-    productTitle.innerText = productData.title;
+    productTitle.innerText = productData.name;
     productTitle.classList.add("product-information")
 
     const productPrice = document.createElement("h3");
-    productPrice.innerText = "$ " + productData.price;
+    productPrice.innerText = "$ " + productData.prices.price/100;
 
     const productDescription = document.createElement ("p");
     productDescription.innerHTML = productData.description;
