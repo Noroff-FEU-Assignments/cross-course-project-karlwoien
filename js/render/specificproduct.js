@@ -45,12 +45,12 @@ export function renderSpecificProduct (productData) {
     productSizes.classList.add("product-size-left");
     productSizes.ariaLabel = "Sizes";
 
-    for (let i = 0; i < productData.sizes.length; i++) {
-        const productSize = document.createElement("div")
-        productSize.innerHTML = productData.sizes[i];
-        productSize.classList.add("product-size-selection", "product-size-selection:hover")
-        productSizes.appendChild(productSize);
-    }
+   // for (let i = 0; i < productData.sizes.length; i++) {
+   //     const productSize = document.createElement("div")
+   //     productSize.innerHTML = productData.sizes[i];
+   //     productSize.classList.add("product-size-selection", "product-size-selection:hover")
+   //     productSizes.appendChild(productSize);
+   // }
 
     const addToBag = document.createElement("a");
     addToBag.innerHTML = "add to bag";
