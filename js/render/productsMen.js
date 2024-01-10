@@ -9,16 +9,16 @@ export function renderProductsMen (productData) {
        product.href = `/product?id=${productData[i].id}`;
         
         let image = document.createElement ("img");
-        image.src = productData[i].image;
-        image.alt = productData[i].title;
+        image.src = productData[i].images[0].src;
+        image.alt = productData[i].name;
         
     
         let productTitle = document.createElement("h3");
-        productTitle.innerHTML = productData[i].title;
+        productTitle.innerHTML = productData[i].name;
         
     
         let productPrice = document.createElement("p");
-        productPrice.innerHTML = "$ " + productData[i].price;
+        productPrice.innerHTML = "$ " + productData[i].prices.price/100;
         productPrice.classList.add = (".p-bold");
         
         
