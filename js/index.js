@@ -5,7 +5,7 @@ import { shopMen } from "./pages/productsMen.js";
 import { shopWomen } from "./pages/productsWomen.js";
 import { renderModal } from "./components/messageBox.js";
 
-if (location.pathname === "/shop.html") {
+if (location.pathname === "/shop") {
     shopProducts();
 }
 
@@ -13,15 +13,15 @@ if (location.pathname === "/product") {
     specificProduct();
 }
 
-if (location.pathname === "/index.html") { 
+if (location.pathname === "/") { 
     home();
 }
 
-if (location.pathname === "/men.html") { 
+if (location.pathname === "/men") { 
     shopMen();
 }
 
-if (location.pathname === "/women.html") { 
+if (location.pathname === "/women") { 
     shopWomen();
 }
 
