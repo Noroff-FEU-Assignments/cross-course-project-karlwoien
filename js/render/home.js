@@ -11,14 +11,14 @@ export function renderNewArrivals (discoverNewArrivals) {
         container.href = `/product?id=${discoverNewArrivals[i].id}`;
 
         let image = document.createElement("img");
-        image.src = discoverNewArrivals[i].image;
-        image.alt = discoverNewArrivals[i].title;
+        image.src = discoverNewArrivals[i].images[0].src;
+        image.alt = discoverNewArrivals[i].name;
 
         let title = document.createElement("h3");
-        title.innerHTML = discoverNewArrivals[i].title;
+        title.innerHTML = discoverNewArrivals[i].name;
 
         let price = document.createElement("p");
-        price.innerHTML = "$ " + discoverNewArrivals[i].price;
+        price.innerHTML = "$ " + discoverNewArrivals[i].prices.price/100;
         price.classList.add ("p-bold");
 
         const button = document.createElement ("button");
