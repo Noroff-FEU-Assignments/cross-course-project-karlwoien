@@ -19,6 +19,7 @@ export function renderNewArrivals (discoverNewArrivals) {
 
         let price = document.createElement("p");
         price.innerHTML = "$ " + discoverNewArrivals[i].price;
+        price.classList.add ("p-bold");
 
         const button = document.createElement ("button");
         button.innerText = "shop now";

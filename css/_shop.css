@@ -1,0 +1,40 @@
+/* Styling shop */
+
+.shop-selection {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: baseline;
+    margin: 0px 30px;
+}
+
+.shop-grid-products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding-top: 40px;
+    text-align: center;
+    max-width: 100%;
+    max-height: auto;
+}
+
+.shop-grid-products img{
+    height: 400px;
+}
+
+.shop-grid-products img:hover{
+    transform: scale(1.08);
+}
+
+.category-selected {  
+    color: #C22525;
+}
+
+.shop-selection a:hover {
+    color: #C22525;
+}
+
+.shop-button {  
+    padding-top: 40px;
+    text-align: center;
+}

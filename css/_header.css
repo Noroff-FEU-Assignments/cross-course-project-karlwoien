@@ -1,0 +1,50 @@
+/* Styling header */
+header {
+    min-height: 50px;
+    padding: 20px 0px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo-header {
+    padding: 0px 0px;
+}
+
+/* hambuger menu */
+
+#menu-checkbox {
+    display: none;
+}
+
+nav {
+    display: block;
+    position: static;
+}
+
+.hamburger-icon {
+    display: none;
+}
+
+nav a {
+    display: inline-block;
+    padding: 20px;
+    font-size: 1.75rem;
+}
+
+nav a:hover{
+    color: #C22525;
+}
+
+/* shopping bag */
+
+.shoppingbag-desktop {
+    padding: 14px;
+}
+
+.shoppingbag-mobile {
+    display: none;
+}

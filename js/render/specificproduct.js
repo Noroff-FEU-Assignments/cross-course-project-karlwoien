@@ -5,6 +5,7 @@ export function renderSpecificProduct (productData) {
     const img = document.createElement ("img");
     img.src = productData.image;
     img.alt = productData.title;
+    img.classList.add("large-view-picture")
 
     const productTitle = document.createElement("h1");
     productTitle.innerText = productData.title;
@@ -15,6 +16,16 @@ export function renderSpecificProduct (productData) {
 
     const productDescription = document.createElement ("p");
     productDescription.innerHTML = productData.description;
+
+    const productDetails = document.createElement("p");
+    productDetails.innerHTML = "Details:";
+    productDetails.classList.add("p-bold")
+
+    const productBullets = document.createElement ("ul");
+    productBullets.innerHTML = `<li>Waterproof</li>
+                                <li>Highly breathable</li>
+                                <li>100% Polyester</li>`;
+    productBullets.classList.add("product-information");
 
     const textHr = document.createElement("hr");
 
@@ -27,28 +38,35 @@ export function renderSpecificProduct (productData) {
     const productSizeRight = document.createElement ("div");
     productSizeRight.classList.add("product-size-right");
 
-    const sizeText = document.createElement("p")
+    const sizeText = document.createElement("p");
     sizeText.innerHTML = "Size: ";
+   
+    const productSizes = document.createElement ("div");
+    productSizes.classList.add("product-size-left");
+    productSizes.ariaLabel = "Sizes";
 
-    let productSize = document.createElement("p")
-    productSize.innerHTML = productData.sizes;
-    productSize.classList.add("product-size-selection", "product-size-selection:hover")
+    for (let i = 0; i < productData.sizes.length; i++) {
+        const productSize = document.createElement("div")
+        productSize.innerHTML = productData.sizes[i];
+        productSize.classList.add("product-size-selection", "product-size-selection:hover")
+        productSizes.appendChild(productSize);
+    }
 
     const addToBag = document.createElement("a");
-    addToBag.innerText = "add to bag";
+    addToBag.innerHTML = "add to bag";
     addToBag.classList.add("btn--red");
     addToBag.href = "/checkout.html";
 
     const continueShopping = document.createElement("a");
-    continueShopping.innerText = "continue shopping";
+    continueShopping.innerHTML = "continue shopping";
     continueShopping.classList.add("btn--white");
     continueShopping.href = "/shop"
 
     productSizeRight.append (addToBag)
-    productSizeLeft.append(sizeText, productSize)
+    productSizeLeft.append(sizeText, productSizes)
     productSizeContainer.append(productSizeLeft, productSizeRight)
 
-    productTitle.append(productPrice, productDescription, textHr, productSizeContainer, continueShopping);
+    productTitle.append(productPrice, productDescription,productDetails, productBullets, textHr, productSizeContainer, continueShopping);
 
     productElement.append(img, productTitle);
 

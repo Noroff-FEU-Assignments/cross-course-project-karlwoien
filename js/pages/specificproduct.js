@@ -1,7 +1,8 @@
 import { getProduct } from "../api/products.js";
 import { renderSpecificProduct } from "../render/specificproduct.js";
 import { loader } from "../constants.js";
-import { changeTitle } from "../components/changetitle.js";
+import { changeTitle } from "../components/changeTitle.js";
+import { selectSize } from "../components/sizeSelection.js";
 
 let product;
 
@@ -12,6 +13,7 @@ export async function specificProduct() {
 
     const product = await getProduct(id);
     renderSpecificProduct(product);
+    selectSize();
     changeTitle (
       `${product.title
         .replace ("Rainy Days ", "")
