@@ -1,3 +1,7 @@
+let size1 = productData.attributes[1].terms[0].name;
+    const splitString = size1.split(",")
+    console.log(splitString)
+
 export function renderSpecificProduct (productData) {
     const productElement = document.createElement ("div");
     productElement.classList.add("product-row")
@@ -44,11 +48,6 @@ export function renderSpecificProduct (productData) {
     const productSizes = document.createElement ("div");
     productSizes.classList.add("product-size-left");
     productSizes.ariaLabel = "Sizes";
-
-    let size1 = productData.attributes[1].terms[0].name;
-
-    const splitString = size1.split(",")
-    console.log(splitString)
 
     for (let i = 0; i < productData.splitString.length; i++) {
         const productSize = document.createElement("div")
