@@ -45,9 +45,9 @@ export function renderSpecificProduct (productData) {
     productSizes.classList.add("product-size-left");
     productSizes.ariaLabel = "Sizes";
 
+    // Converting string of different sizes to Array, since WP put out string//
     let size1 = productData.attributes[1].terms[0].name;
     const splitString = size1.split(",")
-    console.log(splitString)
 
     for (let i = 0; i < splitString.length; i++) {
         const productSize = document.createElement("div")
