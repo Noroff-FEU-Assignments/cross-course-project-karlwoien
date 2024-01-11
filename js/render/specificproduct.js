@@ -45,9 +45,9 @@ export function renderSpecificProduct (productData) {
     productSizes.classList.add("product-size-left");
     productSizes.ariaLabel = "Sizes";
 
-    for (let i = 0; i < productData.attributes[1].terms.name.length; i++) {
+    for (let i = 0; i < productData.attributes[1].terms[0].name.length; i++) {
         const productSize = document.createElement("div")
-        productSize.innerHTML = productData.attributes[1].terms.name[i];
+        productSize.innerHTML = productData.attributes[1].terms[0].name[i];
         productSize.classList.add("product-size-selection", "product-size-selection:hover")
         productSizes.appendChild(productSize);
     }
