@@ -49,11 +49,11 @@ export function renderSpecificProduct (productData) {
     const splitString = size1.split(",")
     console.log(splitString)
 
-    for (let i = 0; i < productData.splitString.length; i++) {
+    for (let i = 0; i < splitString.length; i++) {
         const productSize = document.createElement("div")
-        productSize.innerHTML = productData.splitString[i];
+        productSize.innerHTML = splitString[i];
         productSize.classList.add("product-size-selection", "product-size-selection:hover")
-        productSizes.appendChild(productSize, splitString);
+        productSizes.appendChild(productSize);
     }
 
     const addToBag = document.createElement("a");
