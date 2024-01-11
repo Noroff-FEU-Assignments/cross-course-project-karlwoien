@@ -45,12 +45,22 @@ export function renderSpecificProduct (productData) {
     productSizes.classList.add("product-size-left");
     productSizes.ariaLabel = "Sizes";
 
-    for (let i = 0; i < productData.attributes[1].terms[0].name.length; i++) {
-        const productSize = document.createElement("div")
-        productSize.innerHTML = productData.attributes[1].terms[0].name[i];
-        productSize.classList.add("product-size-selection", "product-size-selection:hover")
-        productSizes.appendChild(productSize);
-    }
+    //for (let i = 0; i < productData.attributes[1].terms[0].name.length; i++) {
+    //    const productSize = document.createElement("div")
+    //    productSize.innerHTML = productData.attributes[1].terms[0].name[i];
+    //    productSize.classList.add("product-size-selection", "product-size-selection:hover")
+    //    productSizes.appendChild(productSize);
+    //}
+
+    const productSize = document.createElement("div")
+    productSize.innerHTML = `<p>XS</p>
+                            <p>S</p>
+                            <p>M</p>
+                            <p>L</p>
+                            <p>XL</p>
+                            <p>XXL</p>`;
+    productSize.classList.add("product-size-selection", "product-size-selection:hover")
+    productSizes.appendChild(productSize);
 
     const addToBag = document.createElement("a");
     addToBag.innerHTML = "add to bag";
