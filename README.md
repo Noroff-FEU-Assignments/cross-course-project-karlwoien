@@ -23,3 +23,11 @@ Update as of december 10th 2023:
 
 As CA in the course Interaction Design we were to test the usability of our site and see if we could improve the overall interaction. Testing where conducted by implementing and using Hotjar, as well as conducting in-person and remote testing with external people. Questionnaires were used.
 Based on collected data and feedback the site is now further improved to enhance the website, using current skills in HTML, CSS and JS learned in previous courses.
+
+# CA - Content Management Systems
+
+Update as of january 12th 2024:
+
+As CA in the course Content Management System we were to use the WordPress REST API to manage the products for a website. There were two distinct aspects to this assignment: Setup and configure a headless WordPress + WooCommerce API, and fetch this API as a data source and display it as part of your cross-course project.
+
+The assignement is done in the CMS branch of the cross-course-project and not pulled to main at this time.
