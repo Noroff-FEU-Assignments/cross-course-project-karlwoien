@@ -1,25 +1,57 @@
-# cross-course-project-karlwoien
+# Rainy Days
 
-cross-course-project-karlwoien created by GitHub Classroom
+![rainydays-kew netlify app_ – stort](https://github.com/Noroff-FEU-Assignments/cross-course-project-karlwoien/assets/128052254/b1a61625-aa87-4774-be0b-f852a42e6101)
 
-# CA - HTML & CSS - Rainy Days
 
-This is a repository for the Course Assignment in the HTML & CSS course at Noroff (first semester). 
-The task is to deliver a properly functioning, responsive website for the assignment brief we chose to do in the course "Design 1", where we learned to design and prototype in Figma. 
+A online shop for a conceptual brand specializing in outdoor jackets.
 
-The brief I chose where "Rainy Days", which is an online shop selling men's and women's jackets designed for a range of different outdoor activities. 
+The site can be viewed live at: [https://rainydays-kew.netlify.app/](https://rainydays-kew.netlify.app/)
 
-The site, originally built with just HTML and CSS, can be viewed live at: https://rainydays-kew.netlify.app/
+## Description
 
-# CA - Javasript 1
+Rainy Days is a cross-course project developed over my first year at Noroff. It’s an online shop for a conceptual brand specializing in outdoor jackets. The project’s journey started in our Design course were I designed and prototyped the website in Figma. As our coding skills progressed with new courses, I brought the design to life with HTML and CSS. With the introduction of JavaScript, I later enhanced the sites functionality. The site have further been refined based on insights gained from user testing and Hotjar analytics.
 
-Update as of novemer 12th 2023: 
+#### Brief in short:
 
-As CA in the Course Javascript 1 we where to modify our existing Cross-Course Project to fetch products form an external API. The hardcoded data regaring product list, product detail page and new arrivals on the home page (coded in the course HTML & CSS) is now removed and have been modified to fetch data dynamically from the API. The site now also include a loading indicator while fetching data and error handling has been implemented.
+An online shop selling men's and women’s rain jackets. They are designed for a range of different outdoor activities that enrich people's lives. Target audience: men and women aged 30 to 50 whose interest are beeing outdoors, hiking, exploring, skiing, camping, canoeing.
 
-# CA - Interaction Design
+#### Site architecture
+- Home
+- List of jackets
+- Jacket specific page
+- Chechout page
+- Chechout success page
+- About
+- Contact
 
-Update as of december 10th 2023:
+## Built With
 
-As CA in the course Interaction Design we were to test the usability of our site and see if we could improve the overall interaction. Testing where conducted by implementing and using Hotjar, as well as conducting in-person and remote testing with external people. Questionnaires were used.
-Based on collected data and feedback the site is now further improved to enhance the website, using current skills in HTML, CSS and JS learned in previous courses.
+The site is built using vanilla HTML, CSS and JavaScript.
+
+- [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+## Getting Started
+
+### Innstalling 
+
+1. Clone the repo:
+
+```bash
+git clone git@github.com:Noroff-FEU-Assignments/cross-course-project-karlwoien.git
+```
+
+### Running
+
+Open the folder of the cloned repo in a code editor (ex. VS Code). Open the root index.html file with Live Server
+
+## Contributing
+
+Feel free to fork the project if you want to make your own version of it:
+
+- Fork the Repository
+- Create a Branch and Make Changes
+- Commit and Push Changes
+- Open and explain Changes in a Pull Request
+
