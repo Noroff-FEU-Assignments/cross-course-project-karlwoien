@@ -9,7 +9,7 @@ The site can be viewed live at: [https://rainydays-kew.netlify.app/](https://rai
 
 ## Description
 
-Rainy Days is a cross-course project developed over my first year at Noroff. It’s an online shop for a conceptual brand specializing in outdoor jackets. The project’s journey started in our Design course were I designed and prototyped the website in Figma. As our coding skills progressed with new courses, I brought the design to life with HTML and CSS. With the introduction of JavaScript, I later enhanced the sites functionality. The site have further been refined based on insights gained from user testing and Hotjar analytics.
+Rainy Days is a cross-course project developed over my first year at Noroff - School of Technology and Digital Media. It’s an online shop for a conceptual brand specializing in outdoor jackets. The project’s journey started in our Design course were I designed and prototyped the website in Figma. As our coding skills progressed with new courses, I brought the design to life with HTML and CSS. With the introduction of JavaScript, I later enhanced the sites functionality. The site have further been refined based on insights gained from user testing and Hotjar analytics.
 
 #### Brief in short:
 
@@ -48,10 +48,4 @@ Open the folder of the cloned repo in a code editor (ex. VS Code). Open the root
 
 ## Contributing
 
-Feel free to fork the project if you want to make your own version of it:
-
-- Fork the Repository
-- Create a Branch and Make Changes
-- Commit and Push Changes
-- Open and explain Changes in a Pull Request
-
+As this is a school exam, this repo is not open for contributions. Feel free to fork the project if you want to make your own version of it.
